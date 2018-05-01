@@ -60,11 +60,10 @@ body{
 /*barre du haut avec logo*/
 #logo-nom {
 	display: flex;
-	background-color: pink;
+	background-color: white;
 	justify-content: center;
 	align-items: center;
 	height: auto;
-	background-color: white;
 }
 #logo{
 	width: 200px;
@@ -72,17 +71,19 @@ body{
 	margin-bottom: 8px;*/
 	padding: 10px 50px 10px 10px;
 }
-.nom h1 {
+#nom-logo h1 {
 	font-size: 45px;
-	text-align: center;
-	letter-spacing: 3px;
+	/*text-align: center;*/
 	margin-top: 10px;
 	margin-bottom: -2px;
 }
-.logo-nom p{
+#logo-nom p{
 	font-size: 24px;
-	padding-left: 40px;
-	letter-spacing: 2px;
+	padding-left: 50px;
+	
+}
+#nom-logo {
+	width: auto;
 }
 
 /*mise en page barre totale de navigation*/
@@ -324,6 +325,11 @@ footer{
 #coordonnees i {
 	padding-right: 5px;
 }
+.fa-facebook {
+	font-size: 25px;
+	color: black;
+	padding-left: 3px;
+}
 #plan-du-site{
 	/*display: flex;*/
 	font-size: 18px;
@@ -421,7 +427,7 @@ footer{
     width: 	auto;
 }
 #page-contact .well{
-    margin-top:30px;
+    margin-top:10px;
     border-radius:0;
 }
 .well {
@@ -431,23 +437,22 @@ footer{
 	border: none;
 }
 .well h2 {
-	background-color: #E4741AFF;
 	margin-top: -3px;
 	padding: 10px;
 	margin-right: -12px;
 	margin-left: -20px;
 }
-.form-control  {
-	background-color: #F0E90EFF;
+.form-group-nom  {
+	widows: 30px;
 }
 #bouton-form {
-	background-color: #7B9C62FF;
+	background-color: rgb(#171717);
 	margin-bottom: 10px;
 	margin-left: 200px;: 
 }
 #page-contact .form-control{
     border-radius: 0;
-    border:2px solid #7B8589;
+    border:1px solid #7B8589;
 }
 #page-contact button{
     border-radius:0;
@@ -482,13 +487,14 @@ footer{
 .titre-cab p {
 	font-size: 18px;
 }
-.facebook {
-	font-size: 20px;
-	margin-top: 20px;
-	text-align: center;
-}
 .fa-mobile-alt {
 	padding-right: 10px;
+}
+.facebook i {
+	font-size: 25px;
+	margin-top: 20px;
+	text-align: center;
+	color: black;
 }
 /*fin de mise en page de la page contacts*/
 
@@ -504,6 +510,10 @@ footer{
 	margin-right: 20px;
 	margin-left: 20px;
 	padding: 10px;
+}
+.logo-cheque-sante {
+	width: 50px;
+	padding-left: 10px;
 }
 .tarifs {
 	text-align: center;
@@ -525,9 +535,14 @@ footer{
 	padding-right: 15px;
 	padding-left: 15px;
 }
+h2 {
+	font-weight: bold;
+	font-size: 24px;
+}
 .texte-tarifs {
 	font-size: 18px;
 	text-align: justify;
+	padding-top: 20px;
 }/*fin de mise en page de la page tarifs*/
 
 
@@ -621,6 +636,14 @@ footer{
 	font-weight: bold;
 	margin-bottom: 30px;
 }
+.titre-access img {
+	width: 5%;
+}
+.titre-access p {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
 .partie-gauche1 h2 {
 	font-size: 20px;
 	text-align: center;
