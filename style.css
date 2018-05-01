@@ -446,7 +446,7 @@ footer{
 	widows: 30px;
 }
 #bouton-form {
-	background-color: rgb(#171717);
+	background-color: #FFD73D;
 	margin-bottom: 10px;
 	margin-left: 200px;: 
 }
@@ -512,7 +512,7 @@ footer{
 	padding: 10px;
 }
 .logo-cheque-sante {
-	width: 50px;
+	width: 70px;
 	padding-left: 10px;
 }
 .tarifs {
@@ -538,6 +538,7 @@ footer{
 h2 {
 	font-weight: bold;
 	font-size: 24px;
+	color: #E6B523;
 }
 .texte-tarifs {
 	font-size: 18px;
@@ -738,6 +739,12 @@ h2 {
 	border: 1px solid #7B8589;
 	text-align: center;
 }
+.jaune {
+	color: #FFD73D;
+}
+.vert {
+	color: #938D2B;
+}
 .texte-sophro1 {
 	font-size: 18px;
 	text-align: justify;
@@ -749,6 +756,7 @@ h2 {
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 2em;
+	color: #FFD73D;
 }
 .photo-tableau-sophro-droit img {
 	margin-right: 50px;
