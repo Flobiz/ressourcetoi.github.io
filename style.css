@@ -419,7 +419,9 @@ footer{
 	margin-right: 12px;
 	margin-left: 12px;
 }
-
+	#map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+				height:400px;
+			}
 
  /* mise en page du formulaire*/
 #page-contact{
