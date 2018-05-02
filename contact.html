@@ -21,6 +21,61 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+   <!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDBfuKLjNcOi4gBjkkFb4CcdKzaBTnZCEo&sensor=false&libraries=places"></script>
+   <script type="text/javascript">
+                  var myLatlng = new google.maps.LatLng(48.6983043,2.512258699999961);
+                  var myOptions = {
+                   zoom: 16,
+                   center: myLatlng,
+                   mapTypeId: google.maps.MapTypeId.ROADMAP,
+                   styles: []
+                   };
+                   var map = new google.maps.Map(document.getElementById('map'), myOptions);
+                    var marker = new google.maps.Marker({
+                    position: myLatlng,
+                     map: map,
+                       title: "Cabinet Ressourcetoi - Amandine Mardin"
+                     });
+  </script>-->
+
+  <script src="https://maps.google.com/maps/api/js?key=AIzaSyDBfuKLjNcOi4gBjkkFb4CcdKzaBTnZCEo" type="text/javascript"></script>
+    <script async type="text/javascript">
+      // On initialise la latitude et la longitude de Paris (centre de la carte)
+      var lat = 48.852969;
+      var lon = 2.349903;
+      var map = null;
+      // Fonction d'initialisation de la carte
+      function initMap() {
+        // Créer l'objet "map" et l'insèrer dans l'élément HTML qui a l'ID "map"
+        map = new google.maps.Map(document.getElementById("map"), {
+          // Nous plaçons le centre de la carte avec les coordonnées ci-dessus
+          center: new google.maps.LatLng(lat, lon), 
+          // Nous définissons le zoom par défaut
+          zoom: 11, 
+          // Nous définissons le type de carte (ici carte routière)
+          mapTypeId: google.maps.MapTypeId.ROADMAP, 
+          // Nous activons les options de contrôle de la carte (plan, satellite...)
+          mapTypeControl: true,
+          // Nous désactivons la roulette de souris
+          scrollwheel: false, 
+          mapTypeControlOptions: {
+            // Cette option sert à définir comment les options se placent
+            style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR 
+          },
+          // Activation des options de navigation dans la carte (zoom...)
+          navigationControl: true, 
+          navigationControlOptions: {
+            // Comment ces options doivent-elles s'afficher
+            style: google.maps.NavigationControlStyle.ZOOM_PAN 
+          }
+        });
+      }
+      window.onload = function(){
+        // Fonction d'initialisation qui s'exécute lorsque le DOM est chargé
+        initMap(); 
+      };
+    </script>
+
 <link rel="stylesheet" href="../style.css">   
 
 </head>
@@ -161,22 +216,7 @@
           <div class="col-md-7">
               <div id="map" style="width: 100%; height: 400px;">
               </div>
-                <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDBfuKLjNcOi4gBjkkFb4CcdKzaBTnZCEo&exp&sensor=false&libraries=places"></script>
-                <script type="text/javascript">
-                  var myLatlng = new google.maps.LatLng(48.6983043,2.512258699999961);
-                  var myOptions = {
-                   zoom: 16,
-                   center: myLatlng,
-                   mapTypeId: google.maps.MapTypeId.ROADMAP,
-                   styles: []
-                   };
-                   var map = new google.maps.Map(document.getElementById('map'), myOptions);
-                    var marker = new google.maps.Marker({
-                    position: myLatlng,
-                     map: map,
-                       title: "Cabinet Ressourcetoi - Amandine Mardin"
-                     });
-                </script>
+               
 
                 <div class="facebook">
                  <p >Retrouvez-moi sur <a href="https://facebook.com/sophrologue91/" target="blank"><i class="fab fa-facebook"></i></a></p>
