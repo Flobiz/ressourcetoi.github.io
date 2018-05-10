@@ -507,11 +507,19 @@ footer{
 	padding-top: 8em;
 }
 #page-tarifs {
-	width: auto;
-	height: auto;
 	margin-right: 20px;
 	margin-left: 20px;
-	padding: 10px;
+}
+#tableau-particuliers {
+	width: 100%;
+}
+#trois-tableaux {
+	margin-right: -30px;
+	margin-left: -30px;
+}
+#page-tarifs li {
+	list-style-type:none;
+	font-size: 18px;
 }
 .logo-cheque-sante {
 	width: 70px;
@@ -522,31 +530,89 @@ footer{
 	font-size: 24px;
 	font-weight: bold;
 }
-.tarifs h1 {
-	font-size: 24px;
+.titre-tarifs {
+	font-size: 22px;
 	font-weight: bold;
-}
-.tableau-tarifs {
-	border-collapse: collapse; 
-	margin-top: 2em;
-	margin-bottom: 2em;
-}
-.tableau-tarifs td,tr,th {
-	border: 1px solid #7B8589;
 	text-align: center;
-	padding-right: 15px;
-	padding-left: 15px;
+	margin-top: 20px;
 }
-h2 {
-	font-weight: bold;
+.tarifs {
 	font-size: 24px;
-	color: #E6B523;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.individuel1 {
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.individuel2 {
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.individuel3 {
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.individuel1 h2 {
+	font-weight: bold;
+	font-size: 22px;
+	color: #45545C;
+	text-align: center;
+	background-color: rgba(147, 141, 43, 0.3);
+	padding: 20px;
+}
+.individuel2 h2 {
+	font-weight: bold;
+	font-size: 22px;
+	color: #45545C;
+	text-align: center;
+	background-color: rgba(147, 141, 43, 0.3);
+	padding: 20px;
+}
+.individuel3 h2 {
+	font-weight: bold;
+	font-size: 22px;
+	color: #45545C;
+	text-align: center;
+	background-color: rgba(147, 141, 43, 0.3);
+	padding: 20px;
+}
+.individuel1 ul {
+	background-color: rgba(147, 141, 43, 0.3);
+	padding: 20px;
+	margin-top: -10px;
+}
+.individuel2 ul {
+	background-color: rgba(147, 141, 43, 0.3);
+	padding: 20px;
+	margin-top: -10px;
+}
+.individuel3 ul {
+	background-color: rgba(147, 141, 43, 0.3);
+	padding: 20px;
+	margin-top: -10px;
+}
+.collective h3 {
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.collective p {
+	font-size: 18px;
 }
 .texte-tarifs {
 	font-size: 18px;
 	text-align: justify;
 	padding-top: 20px;
-}/*fin de mise en page de la page tarifs*/
+}
+.collective {
+	background-color: rgba(147, 141, 43, 0.3);
+	padding: 20px;
+}
+
+
+/*fin de mise en page de la page tarifs*/
 
 
 /*mise en page de la page reiki*/
