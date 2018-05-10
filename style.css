@@ -728,7 +728,7 @@ h2 {
 	padding-top: 9em;
 }
 .titre-sophro h1 {
-	font-size: 24px;
+	font-size: 26px;
 	text-align: center;
 	font-weight: bold;
 }
@@ -738,11 +738,11 @@ h2 {
 	margin-bottom: 1em;
 }
 .ligne-sophro tr,th {
-	border: 1px solid #7B8589;
+	border: 1px solid white;
 	text-align: center;
 }
 .jaune {
-	color: #E6B523;
+	color: #FFD73D;
 }
 .vert {
 	color: #938D2B;
@@ -754,41 +754,94 @@ h2 {
 .gras {
 	font-weight: bold;
 }
+#tableau-texte-photos img {
+	display: inline-block;
+}
 .sous-titre-sophro {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 	margin-bottom: 2em;
-	color: #FFD73D;
+	color: #E6B523;
 }
-.photo-tableau-sophro-droit img {
-	margin-right: 50px;
+.photo-sophro1 img {
+	width: 300px;
 }
-.photo-tableau-sophro-gauche img {
+.photo-sophro2 img {
+	width: 300px;
+	margin-top: 30px;
+}
+.photo-sophro3 img {
+	width: 300px;
+	margin-top: 30px;
+}
+.photo-mini1 {
 	margin-left: 50px;
 }
-.texte-tableau-sophro-droit ul {
-	/*list-style-type:none;*/
-	font-size: 20px;
-	margin-top: 20px;
-}
-.texte-tableau-sophro-gauche ul {
-	/*list-style-type:none;*/
-	font-size: 20px;
-	margin-top: 20px;
-}
-.texte-tableau-sophro-droit li {
-	margin-left: 0px;
-	margin-right: 0px;
-}
-.texte-tableau-sophro-gauche li {
+.photo-mini2 {
 	margin-left: 200px;
-	margin-right: 0px;
+}
+.photo-mini3 {
+	margin-left: 100px;
+}
+.texte-sophro1 ul {
+	/*list-style-type:none;*/
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
+}
+.photo-sophro1 h3 {
+	text-align: center;
+	color: #938D2B;
+	font-size: 24px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+.texte-sophro1 li {
+	text-align: left;
+}
+.texte-sophro2 ul {
+	/*list-style-type:none;*/
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
+	margin-left: 30px;
+}
+.photo-sophro2 h3 {
+	text-align: center;
+	color: #938D2B;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 150px;
+}
+.texte-sophro2 li {
+	text-align: left;
+
+}
+.texte-sophro3 ul {
+	/*list-style-type:none;*/
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
+	margin-left: 110px;
+}
+.photo-sophro3 h3 {
+	text-align: center;
+	color: #938D2B;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: -30px;
+}
+.texte-sophro3 li {
+	text-align: left;
 }
 .texte-sophro-sous-photos {
 	margin-top: 2em;
 }
 .texte-sophro-sous-photos h2 {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 	margin-bottom: 1em;
 }
@@ -796,20 +849,8 @@ h2 {
 	font-size: 18px;
 	text-align: justify;
 }
-#tableau-texte-photos {
-	display: block;
-	justify-content: space-between;
-	margin-left: auto;
-	margin-right: auto; 
-	padding: 20px;
-	padding-top: 30px;
-}
-#tableau-texte-photos img {
-	width: 80%;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 20px;
-}/*fin de la mise en page de la page sophrologie*/
+
+/*fin de la mise en page de la page sophrologie*/
 
 /*mise en page de la page techniques energetiques qui réuni reiki et sophro*/
 .espace-techniques-energetiques {
