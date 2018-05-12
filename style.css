@@ -514,8 +514,8 @@ footer{
 	width: 100%;
 }
 #trois-tableaux {
-	margin-right: -30px;
-	margin-left: -30px;
+	margin-right: -45px;
+	margin-left: -45px;
 }
 #page-tarifs li {
 	list-style-type:none;
@@ -536,6 +536,10 @@ footer{
 	text-align: center;
 	margin-top: 20px;
 }
+#un-tableau {
+	margin-right: -30px;
+	margin-left: -30px;
+}
 .tarifs {
 	font-size: 24px;
 	font-weight: bold;
@@ -545,6 +549,7 @@ footer{
 .individuel1 {
 	margin-top: 10px;
 	padding-bottom: 20px;
+
 }
 .individuel2 {
 	margin-top: 10px;
