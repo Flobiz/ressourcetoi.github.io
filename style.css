@@ -628,8 +628,6 @@ footer{
 	padding-top: 8em;
 }
 #page-reiki {
-	width: auto;
-	height: auto;
 	margin-right: 20px;
 	margin-left: 20px;
 	padding: 10px;
@@ -641,16 +639,16 @@ footer{
 	margin-bottom: 30px;
 }
 .signe-reiki img {
-	width: 65%;
+	width: 80%;
+	padding-left: 20px;
 }
 .texte-reiki1 {
 	font-size: 18px;
 	text-align: justify;
 }
 .reiki-1 {
-	width: auto;
-	height: auto;
-	border: 1px solid #7B8589;
+	margin-right: -89px;
+	margin-left: -90px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -662,13 +660,16 @@ footer{
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 10px;
+	margin-left: -70px;
+	color: #E6B523;
 }
 .tableau-reiki2 {
-	border: 1px solid #7B8589;
+
 }
 .texte-reiki2 li {
 	list-style-type:none;
 	font-size: 18px;
+	margin-left: -50px;
 }
 .tableau-reiki2 img {
 	width: 15%;
@@ -688,13 +689,19 @@ footer{
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 10px;
+	margin-left: -70px;
+	color: #E6B523;
 }
 .reiki3 ul {
 	list-style-type:none;
 	font-size: 18px;
 }
+.reiki-3 li {
+	margin-left: -50px;
+}
 .reiki3 p {
 	font-size: 18px;
+	margin-left: -86px;
 }/*fin de mise en page de la page reiki*/
 
 
