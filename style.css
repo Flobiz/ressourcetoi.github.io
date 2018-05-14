@@ -442,6 +442,13 @@ footer{
 #titre-banniere h1 {
 	font-size: 30px;
 }
+.container {
+	width: auto;
+	height: auto;
+}
+
+
+
 
 /*mise en page de la page contact*/
 
@@ -670,14 +677,10 @@ footer{
 
 /*mise en page de la page reiki*/
 #page-reiki {
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
 	padding: 10px;
 	width: auto;
-}
-.container {
-	width: auto;
-	height: auto;
 }
 .texte-reiki-total {
 	width: auto;
@@ -692,12 +695,12 @@ footer{
 	text-align: justify;
 }
 #reiki-1 {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 30px;
 }
 #reiki-2 {
 	height: 200%;
 	width: auto;
+	padding-top: 20px;
 }
 #reiki-2 h2 {
 	font-size: 20px;
@@ -720,6 +723,9 @@ footer{
 .tableau-reiki2 p {
 	font-size: 18px;
 }
+#reiki-3 {
+	padding-top: 30px;
+}
 #reiki-3 h2 {
 	font-size: 20px;
 	font-weight: bold;
@@ -729,9 +735,6 @@ footer{
 .reiki3 ul {
 	list-style-type:none;
 	font-size: 18px;
-}
-#reiki-3 li {
-	margin-left: -50px;
 }
 .reiki3 p {
 	font-size: 18px;
