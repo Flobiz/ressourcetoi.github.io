@@ -424,6 +424,23 @@ footer{
 		padding-top: 7em;
 }*/
 
+#titre-banniere {
+	background-image: url(images/titre.jpg);
+	width: auto;
+	height: 100px;
+	position: relative;
+}
+.titre-banniere {
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	padding-top: 15px;
+	padding-left: 20px;
+	
+}
+#titre-banniere h1 {
+	font-size: 28px;
+}
 
 /*mise en page de la page contact*/
 
@@ -833,7 +850,7 @@ footer{
 	margin-right: 20px;
 }
 .espace-sophro {
-	padding-top: 9em;
+	padding-top: 7em;
 }
 .titre-sophro h1 {
 	font-size: 26px;
