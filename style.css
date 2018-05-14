@@ -419,10 +419,11 @@ footer{
 
 /*MISE EN PAGE DES AUTRES PAGES*/
 
-/* mise en page de toutes les pages
-.espace{
-		padding-top: 7em;
-}*/
+/* mise en page de toutes les pages*/
+#espace {
+	padding-top: 7em;
+	width: auto;
+}
 
 #titre-banniere {
 	background-image: url(images/titre.jpg);
@@ -439,7 +440,7 @@ footer{
 	
 }
 #titre-banniere h1 {
-	font-size: 28px;
+	font-size: 30px;
 }
 
 /*mise en page de la page contact*/
@@ -487,7 +488,7 @@ footer{
 	widows: 30px;
 }
 #bouton-form {
-	background-color: #FFD73D;
+	background-color: #FFD63C;
 	margin-bottom: 10px;
 	margin-left: 200px;: 
 }
@@ -545,9 +546,6 @@ footer{
 
 
 /* mise en page de la page tarifs*/
-.espace-tarifs {
-	padding-top: 8em;
-}
 #page-tarifs {
 	margin-right: 20px;
 	margin-left: 20px;
@@ -632,12 +630,12 @@ footer{
 	margin-top: -10px;
 }
 .individuel2 ul {
-	background-color: rgba(255, 214, 60, 0.3);
+	background-color: rgba(146, 141, 43, 0.3);
 	padding: 20px;
 	margin-top: -10px;
 }
 .individuel3 ul {
-	background-color: rgba(255, 214, 60, 0.3);
+	background-color: rgba(146, 141, 43, 0.3);
 	padding: 20px;
 	margin-top: -10px;
 }
@@ -656,7 +654,7 @@ footer{
 	padding-top: 20px;
 }
 .collective {
-	background-color: rgba(255, 215, 61, 0.3);
+	background-color: rgba(146, 141, 43, 0.3);
 	padding: 20px;
 }
 
@@ -665,13 +663,13 @@ footer{
 
 
 /*mise en page de la page reiki*/
-.espace-reiki {
-	padding-top: 8em;
-}
 #page-reiki {
 	margin-right: 20px;
 	margin-left: 20px;
 	padding: 10px;
+}
+.texte-reiki-total {
+	
 }
 .titre-reiki h1 {
 	font-size: 24px;
@@ -702,7 +700,7 @@ footer{
 	font-weight: bold;
 	margin-bottom: 10px;
 	margin-left: -70px;
-	color: #E6B523;
+	color: #E6B628;
 }
 .tableau-reiki2 {
 
@@ -731,7 +729,7 @@ footer{
 	font-weight: bold;
 	margin-bottom: 10px;
 	margin-left: -70px;
-	color: #E6B523;
+	color: #E6B628;
 }
 .reiki3 ul {
 	list-style-type:none;
@@ -768,7 +766,6 @@ footer{
 	text-align: center;
 	padding-bottom: 10px;
 }
-
 .partie-gauche1 h2 {
 	font-size: 20px;
 	text-align: center;
@@ -849,15 +846,12 @@ footer{
 	margin-left: 20px;
 	margin-right: 20px;
 }
-.espace-sophro {
-	padding-top: 7em;
-}
 .titre-sophro h1 {
 	font-size: 26px;
 	text-align: center;
 	font-weight: bold;
 }
-#texte-sopho-total {
+#texte-sophro-total {
 	width: auto;
 }
 .texte-sophro1 {
@@ -877,11 +871,11 @@ footer{
 	text-align: center;
 }
 .jaune {
-	color: #FFD73D;
+	color: #FFD63C;
 	padding-left: 50px;
 }
 .vert {
-	color: #938D2B;
+	color: #928D2B;
 }
 .texte-sophro1 {
 	font-size: 18px;
@@ -897,7 +891,7 @@ footer{
 	font-size: 22px;
 	font-weight: bold;
 	margin-bottom: 2em;
-	color: #E6B523;
+	color: #E6B628;
 	margin-left: -88px;
 }
 .photo-sophro1 img {
@@ -929,7 +923,7 @@ footer{
 }
 .photo-sophro1 h3 {
 	text-align: center;
-	color: #938D2B;
+	color: #928D2B;
 	font-size: 24px;
 	margin-left: 30px;
 	font-weight: bold;
@@ -947,7 +941,7 @@ footer{
 }
 .photo-sophro2 h3 {
 	text-align: center;
-	color: #938D2B;
+	color: #928D2B;
 	font-size: 24px;
 	font-weight: bold;
 	margin-left: 150px;
@@ -966,7 +960,7 @@ footer{
 }
 .photo-sophro3 h3 {
 	text-align: center;
-	color: #938D2B;
+	color: #928D2B;
 	font-size: 24px;
 	font-weight: bold;
 	margin-left: -30px;
