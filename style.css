@@ -914,6 +914,7 @@ h2 {
 
 /* menu à modifier en fonction de la taille de l'écran*/
 
+
 @media(max-width:767px){
 	#carousel{
 		display: none; /*page accueil*/
@@ -921,6 +922,83 @@ h2 {
 	#contact iframe {
         margin-bottom: 15px; /*page contact*/	
 	}
+	.navbar-fixed-top {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	#navbar-top {
+		font-size: 16px;	
+	}
+	#navbar-top img{
+		width: 30px;
+		padding-right: 10px;
+		margin-bottom: 5px;
+	}
+	#logo{
+		width: 120px;
+		padding: 5px 50px 5px 5px;
+}
+	#nom-logo h1 {
+		font-size: 20px;
+		margin-top: -40px;
+		padding-left: 100px;
+		padding-bottom: 5px;
+	}
+	#logo-nom p{
+		font-size: 16px;
+		padding-left: 120px;
+		margin-top: -10px;
+	}
+	.dropdown-menu{
+		font-size: 16px;
+	}
+	.navbar-nav{
+		font-size: 16px;
+	}
+	.espace-menu{
+		margin-bottom: 5.5em;
+	}
+	footer{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	#logo2{
+		width: 0%;
+	}
+	#coordonnees {
+		margin-top: -40px;
+	}
+	#coordonnees h1 {
+		font-size: 18px;
+	}
+	#coordonnees h2 {
+		font-size: 14px;
+	}
+	#coordonnees p {
+		font-size: 16px;
+	}
+	#plan-du-site{
+		font-size: 16px;
+		margin-top: -40px;
+	}
+	#autres{
+		font-size: 16px;
+	}
+	.logo-chambre a:hover span {
+		font-size: 12px;
+	}
+	.liens {
+		font-size: 16px;
+	}
+	.site p {
+		font-size: 14px;	
+	}
+	.facebook-media  {
+		margin-top: 50px;
+	}
+
+
+
 
 @media(min-width:768px){
 
