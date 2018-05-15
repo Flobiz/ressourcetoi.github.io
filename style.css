@@ -434,7 +434,7 @@ footer{
 
 /* mise en page de toutes les pages*/
 #espace {
-	padding-top: 7em;
+	padding-top: 7.5em;
 	width: auto;
 }
 
@@ -460,7 +460,7 @@ footer{
 	height: auto;
 }
 h2 {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 	margin-bottom: 10px;
 	color: #E6B628;
@@ -469,39 +469,35 @@ h2 {
 
 
 /*mise en page de la page contact*/
-
-.espace-contact {
-	margin-bottom: 10em;
+#page-contact{
+    font-family: forum;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 40px;
 }
 
 /* mise en page de la carte*/
 .form-map {
 	display: block;
 	width: auto;
-	height: 600px;
 	background-color: white;
-	padding: 10px;
-	margin-right: 12px;
-	margin-left: 12px;
 }
-	#map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
-				height:400px;
-			}
+#map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+	height:500px;
+	width: 100%;
+	padding-top: 20px;
+}
 
  /* mise en page du formulaire*/
-#page-contact{
-    font-family: forum;
-    width: 	auto;
-}
 #page-contact .well{
-    margin-top:10px;
-    border-radius:0;
+     border-radius:0;
 }
 .well {
 	background-color: white;
-	padding-left: 20px;
-	height: 60px;
 	border: none;
+}
+.well h2{
+	font-size: 24px;
 }
 .form-group-nom  {
 	widows: 30px;
@@ -509,7 +505,7 @@ h2 {
 #bouton-form {
 	background-color: #FFD63C;
 	margin-bottom: 10px;
-	margin-left: 200px;: 
+	margin-left: 200px;
 }
 #page-contact .form-control{
     border-radius: 0;
@@ -517,17 +513,15 @@ h2 {
 }
 #page-contact button{
     border-radius:0;
-    border:2px solid #7B8589;
+    border:1px solid #7B8589;
 }
-#page-contact .row{
-    margin-bottom:30px;
-}
+
 /*@media (max-width: 768px) repris sur media fin de page*/
 
 
 /*mise en page des liens sur page contact*/
 .lien-contact  {
-	margin-bottom: -20px;
+	/*margin-bottom: -20px;*/
 }
 #lieu {
 	display: flex;
@@ -537,12 +531,9 @@ h2 {
 .photo-cab {
 	width: 100%;
 	margin-top: 30px;
-
-
 }
 .titre-cab {
 	margin-top: 10px;
-	margin-left: 0px;
 }
 .titre-cab h1 {
 	font-size: 20px;

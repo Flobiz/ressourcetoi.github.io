@@ -103,90 +103,97 @@
   <!-- création de la page-->
  
  <!-- pour sortir de la navbar figée-->
- <div id="espace">
+ <div class="container" id="espace">
   </div>
 
   
 
   <section id="page-contact">
-  
+
+        <div class="titre-access" id="titre-banniere">
+            <h1 class="titre-banniere">Contact</h1> 
+        </div>
+
     <div class="container form-map">
-
-         <div class="well well-sm">
-           <h2><strong>Vous avez une question ?</strong></h2> 
-         </div>
-
          <div class="row">
-        
+
+             
             <div class="col-md-5">
-              <form>
-                <div class="form-group-nom">
-                  <input type="text" class="form-control" name="" value="" placeholder="Votre nom">
-                </div>
-                <div class="form-group-mail">
-                  <input type="email" class="form-control" name="" value="" placeholder="Votre adresse mail">
-                </div>
-                <div class="form-group-telephone">
-                  <input type="tel" class="form-control" name="" cols="5" value="" placeholder="Votre téléphone">
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="" rows="6" placeholder="Votre Message"></textarea>
-                </div>
-                  <button class="btn btn-default" id="bouton-form" type="submit" name="button">
-                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Envoyer
-                  </button>
-              </form>
+                 <div class="well well-sm">
+                   <h2>Vous avez une question ?</h2> 
+                 </div>
 
-              <div class="lien-contact">
-                <div class="container" id="lieu">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <img class="photo-cab" src="../images/cabinet.jpg" alt="Photo du cabinet RessourceToi - Amandine Mardin">
-                    </div>  
-
-                    <div class="col-md-7 titre-cab">
-                        <h1>LE CABINET</h1>
-                        <p> 7 rue Michelet - 91800 Brunoy</p><br>
-                        <p>7 min à pieds de la gare de Brunoy - RER D</p>
+                 <form>
+                    <div class="form-group-nom">
+                      <input type="text" class="form-control" name="" value="" placeholder="Votre nom">
                     </div>
+                    <div class="form-group-mail">
+                      <input type="email" class="form-control" name="" value="" placeholder="Votre adresse mail">
+                    </div>
+                    <div class="form-group-telephone">
+                      <input type="tel" class="form-control" name="" cols="5" value="" placeholder="Votre téléphone">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" name="" rows="6" placeholder="Votre Message"></textarea>
+                    </div>
+                        <button class="btn btn-default" id="bouton-form" type="submit" name="button">
+                          <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Envoyer
+                        </button>
+                 </form>
 
-                  </div>
-                </div>
-              </div>
-      
+                    <div class="lien-contact">
+                      <div class="container" id="lieu">
+
+                       <div class="row">
+                          <div class="col-md-5">
+                            <img class="photo-cab" src="../images/cabinet.jpg" alt="Photo du cabinet RessourceToi - Amandine Mardin">
+                          </div>  
+
+                          <div class="col-md-7 titre-cab">
+                              <h1>LE CABINET</h1>
+                              <p> 7 rue Michelet - 91800 Brunoy</p>
+                              <p><i class="fas fa-mobile-alt"></i> 07 82 66 92 34</p>
+                              <p>7 min à pieds de la gare de Brunoy - RER D</p>
+                          </div>
+                        </div><!--row-->
+
+                      </div>
+                    </div><!--lien-contact-->
+            
             </div><!--col-md-5-->
 
        
 
-          <div class="col-md-7">
-              <div id="map" style="width: 100%; height: 400px;">
-              </div>
-                <script src="https://maps.google.com/maps/api/js?key=AIzaSyBHIPrDrCqmPyl5cyDQH_ZN4wclmBBVg4E" type="text/javascript"></script>
-                <script async type="text/javascript">
-                
-                  var myLatlng = new google.maps.LatLng(48.6983043,2.512258699999961);
-                  var myOptions = {
-                   zoom: 16,
-                   center: myLatlng,
-                   mapTypeId: google.maps.MapTypeId.ROADMAP,
-                   styles: []
-                   };
-                   var map = new google.maps.Map(document.getElementById('map'), myOptions);
-                    var marker = new google.maps.Marker({
-                    position: myLatlng,
-                     map: map,
-                       title: "Cabinet Ressourcetoi - Amandine Mardin"
-                     });
-                </script>
+            <div class="col-md-7">
+                <div id="map">
+                </div>
+                    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBHIPrDrCqmPyl5cyDQH_ZN4wclmBBVg4E" type="text/javascript"></script>
+                    <script async type="text/javascript">
+                    
+                      var myLatlng = new google.maps.LatLng(48.6983043,2.512258699999961);
+                      var myOptions = {
+                       zoom: 16,
+                       center: myLatlng,
+                       mapTypeId: google.maps.MapTypeId.ROADMAP,
+                       styles: []
+                       };
+                       var map = new google.maps.Map(document.getElementById('map'), myOptions);
+                        var marker = new google.maps.Marker({
+                        position: myLatlng,
+                         map: map,
+                           title: "Cabinet Ressourcetoi - Amandine Mardin"
+                         });
+                    </script>
 
                 <div class="facebook">
                  <p >Retrouvez-moi sur <a href="https://facebook.com/sophrologue91/" target="blank"><i class="fab fa-facebook"></i></a></p>
-              </div>
+                </div>
 
           </div><!--col-md-7-->
 
       </div><!--row-->
   </div><!--container-->
+
 </section>
 
 
