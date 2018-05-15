@@ -438,7 +438,7 @@ h2 {
 #map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
 	height:500px;
 	width: 100%;
-	padding-top: 20px;
+	margin-top: 20px;
 }
 
  /* mise en page du formulaire*/
