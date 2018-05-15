@@ -459,7 +459,12 @@ footer{
 	width: auto;
 	height: auto;
 }
-
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #E6B628;
+}
 
 
 
@@ -497,12 +502,6 @@ footer{
 	padding-left: 20px;
 	height: 60px;
 	border: none;
-}
-.well h2 {
-	margin-top: -3px;
-	padding: 10px;
-	margin-right: -12px;
-	margin-left: -20px;
 }
 .form-group-nom  {
 	widows: 30px;
@@ -620,7 +619,7 @@ footer{
 	margin-top: 10px;
 	padding-bottom: 20px;
 }
-.individuel1 h2 {
+.individuel1 h3 {
 	font-weight: bold;
 	font-size: 22px;
 	color: #45545C;
@@ -628,7 +627,7 @@ footer{
 	background-color: rgba(146, 141, 43, 0.3);
 	padding: 20px;
 }
-.individuel2 h2 {
+.individuel2 h3 {
 	font-weight: bold;
 	font-size: 22px;
 	color: #45545C;
@@ -636,7 +635,7 @@ footer{
 	background-color: rgba(146, 141, 43, 0.3);
 	padding: 20px;
 }
-.individuel3 h2 {
+.individuel3 h3 {
 	font-weight: bold;
 	font-size: 22px;
 	color: #45545C;
@@ -672,12 +671,6 @@ footer{
 	font-size: 18px;
 	text-align: justify;
 	padding-top: 20px;
-}
-.texte-tarifs h2 {
-	font-size: 20px;
-	font-weight: bold;
-	margin-bottom: 10px;
-	color: #E6B628;
 }
 .collective {
 	background-color: rgba(146, 141, 43, 0.3);
@@ -715,17 +708,8 @@ footer{
 	width: auto;
 	padding-top: 20px;
 }
-#reiki-2 h2 {
-	font-size: 20px;
-	font-weight: bold;
-	margin-bottom: 10px;
-	color: #E6B628;
-}
-.tableau-reiki2 {
-
-}
 .texte-reiki2 li {
-	list-style-type:none;
+	/*list-style-type:none;*/
 	font-size: 18px;
 
 }
@@ -739,14 +723,8 @@ footer{
 #reiki-3 {
 	padding-top: 30px;
 }
-#reiki-3 h2 {
-	font-size: 20px;
-	font-weight: bold;
-	margin-bottom: 10px;
-	color: #E6B628;
-}
 .reiki3 ul {
-	list-style-type:none;
+	/*list-style-type:none;*/
 	font-size: 18px;
 }
 .reiki3 p {
@@ -757,12 +735,16 @@ footer{
 
 
 /*mise en page de la page access*/
-.espace-methode-access {
-	padding-top: 8em;
+#page-methode-access {
+	width: auto;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 .tableau1 {
-	border: 1px solid #7B8589;
-	text-align: justify;
+	width: auto;
+	margin-top: 30px;
+	margin-left: -25px;
+	margin-right: -25px;
 }
 .titre-access h1 {
 	font-size: 24px;
@@ -777,38 +759,49 @@ footer{
 	text-align: center;
 	padding-bottom: 10px;
 }
-.partie-gauche1 h2 {
-	font-size: 20px;
+.partie-gauche1 {
+	font-size: 22px;
+	color: #45545C;
+	text-align: justify;
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+	margin-right: 5px;
+	margin-left: -5px;
+}
+.partie-gauche1 h3 {
+	font-size: 22px;
 	text-align: center;
 	font-weight: bold;
 }
 .partie-gauche1 p {
 	font-size: 18px;
-	border-top: 1px solid #7B8589;
+	/*border-top: 1px solid #7B8589;*/
 	padding-top: 10px;
 }
 .partie-droite1 {
-	border-left: 1px solid #7B8589;
+	font-size: 22px;
+	color: #45545C;
+	text-align: justify;
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+	margin-left: 5px;
+	margin-right: -5px;
 }
-.partie-droite1 h2 {
-	font-size: 20px;
+.partie-droite1 h3 {
+	font-size: 22px;
 	text-align: center;
 	font-weight: bold;
 }
 .partie-droite1 p {
 	font-size: 18px;
-	border-top: 1px solid #7B8589;
+	/*border-top: 1px solid #7B8589;*/
 	padding-top: 10px;
 }
 .tableau2 {
-	border: 1px solid #7B8589;
 	text-align: justify;
 }
-.partie-gauche2 {
-	border-right: 1px solid #7B8589;
-}
+
 .partie-gauche2 ul {
-	list-style-type:none;
 	font-size: 18px;
 }
 .partie-gauche2 p {
@@ -816,10 +809,8 @@ footer{
 	text-align: center;
 	font-weight: bold;
 	padding-top: 10px;
-	border-bottom: 1px solid #7B8589;
 }
 .partie-droite2 ul {
-	list-style-type:none;
 	font-size: 18px;
 }
 .partie-droite2 p {
@@ -827,7 +818,6 @@ footer{
 	text-align: center;
 	font-weight: bold;
 	padding-top: 10px;
-	border-bottom: 1px solid #7B8589;
 }
 .espace-tableau {
 	margin: 1em;
@@ -835,13 +825,7 @@ footer{
 .texte-access {
 	text-align: justify;
 }
-.texte-access h2 {
-	font-size: 20px;
-	font-weight: bold;
-	margin-bottom: 10px;
-}
 .texte-access ul {
-	list-style-type:none;
 	font-size: 18px;
 }
 .texte-access p {
