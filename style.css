@@ -902,7 +902,7 @@ h2 {
 /* menu à modifier en fonction de la taille de l'écran*/
 
 
-@media(max-width:768px){
+@media(min-width:767px){
 	/*.container {
 		width: 750px;
 	}
