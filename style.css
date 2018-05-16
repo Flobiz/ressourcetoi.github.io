@@ -770,21 +770,19 @@ h2 {
 	width: auto;
 }
 .ligne-sophro {
-	border-collapse: collapse; 
 	margin-top: 2em;
 	margin-bottom: 1em;
-	margin-left: -60px;
 }
-.ligne-sophro tr,th {
-	border: 1px solid white;
+.ligne-sophro p {
 	text-align: center;
 }
 .jaune {
 	color: #FFD63C;
-	padding-left: 50px;
+	font-weight: bold;
 }
 .vert {
 	color: #928D2B;
+	font-weight: bold;
 }
 .texte-sophro1 {
 	font-size: 18px;
@@ -1001,7 +999,12 @@ h2 {
 		font-size: 18px;
 	}
 /*page sophro*/
-	
+
+
+/*page reiki*/
+.signe-reiki img {
+	width: 20%;
+}	
 
 @media(min-width:768px){
 
