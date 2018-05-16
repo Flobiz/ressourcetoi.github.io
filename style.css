@@ -1037,7 +1037,7 @@ h2 {
 		display: none;
 	}
 	#tableau-texte-photos li {
-		margin-left: -80px;
+		margin-left: -50px;
 		font-size: 18px;
 	}
 	#tableau-texte-photos h3 {
@@ -1050,6 +1050,9 @@ h2 {
 /*page reiki*/
 	.signe-reiki img {
 		display: none;
+	}
+	#texte-reiki-total {
+		font-size: 16px;
 	}
 /*page methode access*/
 	.partie-gauche1 {
