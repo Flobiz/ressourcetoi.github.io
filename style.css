@@ -1060,15 +1060,8 @@ h2 {
 	}
 
 
-@media(min-width:992px){
+@media(max-width:992px){
 	
-
-	#carousel{
-		display: none; /*page accueil*/
-	}	
-	#contact iframe {
-        margin-bottom: 15px; /*page contact*/	
-	}
 	/*header et footer*/
 	.navbar-fixed-top {
 		margin-right: 0px;
@@ -1218,8 +1211,10 @@ h2 {
 	.partie-gauche1 {
 		margin-bottom: 10px;
 	}
-
+	.tableau2 li {
+		text-align: left;
+	}
 }
-@media(min-width:1200px){
+@media(max-width:1200px){
 	
 }
