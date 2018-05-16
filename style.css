@@ -901,6 +901,8 @@ h2 {
 
 
 @media(max-width:767px){
+
+
 	#carousel{
 		display: none; /*page accueil*/
 	}	
@@ -997,8 +999,8 @@ h2 {
 		margin-top: -1px;
 	}
 	h2 {
-		font-size: 16px;
-	}
+		font-size: 22px;
+		}
 /*page sophro*/
 	.ligne-sophro p {
 		font-size: 16px;
@@ -1006,10 +1008,76 @@ h2 {
 	.ligne-sophro span {
 		font-size: 18px;
 	}
+	#tableau-texte-photos img {
+		display: none;
+	}
+	#tableau-texte-photos li {
+		margin-left: -80px;
+		font-size: 18px;
+	}
+	#tableau-texte-photos h3 {
+		font-size: 22px;
+		margin-left: 20px;
+	}
+	#tableau-texte-photos ul {
+		margin-left: 20px;
+	}
+
+
+/*.photo-mini1 {
+	margin-left: 0px;
+}
+.photo-mini2 {
+	margin-left: 0px;
+}
+.photo-mini3 {
+	margin-left: 0px;
+}
+.photo-sophro1 h3 {
+	margin-left: 0px;
+}
+.texte-sophro2 ul {
+	margin-left: 30px;
+}
+.photo-sophro2 h3 {
+	margin-left: 00px;
+}
+.texte-sophro2 li {
+	text-align: left;
+}
+.texte-sophro3 ul {
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
+	margin-left: 00px;
+}
+.photo-sophro3 h3 {
+	text-align: center;
+	color: #928D2B;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: -70px;
+}
+.texte-sophro3 li {
+	text-align: left;
+}
+.texte-sophro-sous-photos {
+	margin-top: 2em;
+}
+.texte-sophro-sous-photos h2 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+.texte-sophro-sous-photos p {
+	font-size: 18px;
+	text-align: justify;
+}*/
 
 /*page reiki*/
 .signe-reiki img {
-	width: 20%;
+	display: none;
 }	
 
 @media(min-width:768px){
