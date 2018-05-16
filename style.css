@@ -1059,12 +1059,165 @@ h2 {
 		margin-bottom: 10px;
 	}
 
-@media(min-width:768px){
 
-}
 @media(min-width:992px){
 	
 
+	#carousel{
+		display: none; /*page accueil*/
+	}	
+	#contact iframe {
+        margin-bottom: 15px; /*page contact*/	
+	}
+	/*header et footer*/
+	.navbar-fixed-top {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	#navbar-top {
+		font-size: 16px;	
+	}
+	#navbar-top img{
+		width: 30px;
+		padding-right: 10px;
+		margin-bottom: 5px;
+	}
+	#logo{
+		width: 120px;
+		padding: 5px 50px 5px 5px;
+}
+	#nom-logo h1 {
+		font-size: 20px;
+		margin-top: -40px;
+		padding-left: 100px;
+		padding-bottom: 5px;
+	}
+	#logo-nom p{
+		font-size: 16px;
+		padding-left: 120px;
+		margin-top: -10px;
+	}
+	.dropdown-menu{
+		font-size: 16px;
+	}
+	.navbar-nav{
+		font-size: 16px;
+	}
+	footer{
+		margin-right: -25px;
+		margin-left: -25px;
+	}
+	#logo2{
+		width: 0%;
+	}
+	#coordonnees {
+		margin-top: -40px;
+	}
+	#coordonnees h1 {
+		font-size: 18px;
+	}
+	#coordonnees h2 {
+		font-size: 14px;
+	}
+	#coordonnees p {
+		font-size: 16px;
+	}
+	#plan-du-site{
+		font-size: 16px;
+		margin-top: -40px;
+	}
+	#autres{
+		font-size: 16px;
+	}
+	.logo-chambre a:hover span {
+		font-size: 12px;
+	}
+	.liens {
+		font-size: 16px;
+	}
+	.site p {
+		font-size: 14px;	
+	}
+	.facebook-media  {
+		margin-top: 50px;
+		font-size: 12px;
+	}
+	.site p {
+		font-size: 12px;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+/*commun à toutes les pages*/
+	.espace-menu{
+		margin-bottom: 5.5em;
+	}
+	#titre-banniere {
+		height: 70px;
+	}
+	#titre-banniere h1 {
+		font-size: 28px;
+		margin-top: -1px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	main {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	#page-contact {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	#page-sophrologie {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	#page-tarifs {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	#page-reiki {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	#page-methode-access {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+/*page sophro*/
+	.ligne-sophro p {
+		font-size: 16px;
+	}
+	.ligne-sophro span {
+		font-size: 18px;
+	}
+	#tableau-texte-photos img {
+		display: none;
+	}
+	#tableau-texte-photos li {
+		margin-left: -50px;
+		font-size: 18px;
+	}
+	#tableau-texte-photos h3 {
+		font-size: 22px;
+		margin-left: 20px;
+	}
+	#tableau-texte-photos ul {
+		margin-left: 20px;
+	}
+/*page reiki*/
+	.signe-reiki img {
+		display: none;
+	}
+	#texte-reiki-total {
+		font-size: 16px;
+	}
+/*page methode access*/
+	.partie-gauche1 {
+		margin-bottom: 10px;
+	}
 
 }
 @media(min-width:1200px){
