@@ -1016,30 +1016,8 @@ h2 {
 	h2 {
 		font-size: 22px;
 	}
-	main {
-		margin-left: -20px;
-		margin-right: -20px;
-	}
-	#page-contact {
-		margin-left: -20px;
-		margin-right: -20px;
-	}
-	#page-sophrologie {
-		margin-left: -20px;
-		margin-right: -20px;
-	}
-	#page-tarifs {
-		margin-left: -20px;
-		margin-right: -20px;
-	}
-	#page-reiki {
-		margin-left: -20px;
-		margin-right: -20px;
-	}
-	#page-methode-access {
-		margin-left: -20px;
-		margin-right: -20px;
-	}
+	
+	
 
 /*page sophro*/
 	.ligne-sophro p {
