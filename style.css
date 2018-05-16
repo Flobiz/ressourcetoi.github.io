@@ -1212,9 +1212,12 @@ h2 {
 		margin-bottom: 10px;
 	}
 	.tableau2 li {
-		text-align: left;
+		/*text-align: left;*/
 	}
 }
 @media(max-width:1200px){
-	
+	body {
+		background-image: url(images/fond-ecran.jpg);
+
+	}
 }
