@@ -42,7 +42,6 @@ body{
 }
 #logo{
 	width: 200px;
-
 	padding: 10px 50px 10px 10px;
 }
 #nom-logo h1 {
@@ -53,7 +52,7 @@ body{
 #logo-nom p{
 	font-size: 24px;
 	padding-left: 50px;
-	
+
 }
 #nom-logo {
 	width: auto;
@@ -292,13 +291,12 @@ footer{
 	margin-left: 4px;
 }
 #bas-page{
-
 	font-size: 24px;
 	background-color: #7B8589;
 	color: white;
 }
 #logo2{
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: 30px;
 }
 #coordonnees h1 {
@@ -376,9 +374,6 @@ footer{
 	font-size: 14px;	
 	background: white;
 	color: #7B8589;
-	margin-right: -16px;
-	margin-left: -15px;
-	padding-left: 30px;
 }
 
 
@@ -449,9 +444,6 @@ h2 {
 	background-color: white;
 	border: none;
 }
-.well h2{
-	font-size: 24px;
-}
 .form-group-nom  {
 	widows: 30px;
 }
@@ -519,7 +511,7 @@ h2 {
 }
 #page-tarifs li {
 	list-style-type:none;
-	font-size: 18px;
+	font-size: 20px;
 }
 .logo-cheque-sante {
 	width: 70px;
@@ -531,7 +523,7 @@ h2 {
 	font-weight: bold;
 }
 .titre-tarifs {
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
 	margin-top: 20px;
@@ -561,7 +553,7 @@ h2 {
 }
 .individuel1 h3 {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 24px;
 	color: #45545C;
 	text-align: center;
 	background-color: rgba(146, 141, 43, 0.3);
@@ -569,7 +561,7 @@ h2 {
 }
 .individuel2 h3 {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 24px;
 	color: #45545C;
 	text-align: center;
 	background-color: rgba(146, 141, 43, 0.3);
@@ -577,7 +569,7 @@ h2 {
 }
 .individuel3 h3 {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 24px;
 	color: #45545C;
 	text-align: center;
 	background-color: rgba(146, 141, 43, 0.3);
@@ -599,7 +591,7 @@ h2 {
 	margin-top: -10px;
 }
 .collective h3 {
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: bold;
 	padding-bottom: 20px;
 	margin-top: -7px;
@@ -771,11 +763,6 @@ h2 {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-.titre-sophro h1 {
-	font-size: 26px;
-	text-align: center;
-	font-weight: bold;
-}
 #texte-sophro-total {
 	width: auto;
 }
@@ -922,6 +909,7 @@ h2 {
 	#contact iframe {
         margin-bottom: 15px; /*page contact*/	
 	}
+	/*header et footer*/
 	.navbar-fixed-top {
 		margin-right: 0px;
 		margin-left: 0px;
@@ -954,9 +942,6 @@ h2 {
 	}
 	.navbar-nav{
 		font-size: 16px;
-	}
-	.espace-menu{
-		margin-bottom: 5.5em;
 	}
 	footer{
 		margin-right: 0px;
@@ -996,9 +981,27 @@ h2 {
 	.facebook-media  {
 		margin-top: 50px;
 	}
-
-
-
+	.site p {
+		font-size: 12px;
+	}
+/*commun à toutes les pages*/
+	.espace-menu{
+		margin-bottom: 5.5em;
+	}
+	#titre-banniere {
+		height: 60px;
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+	#titre-banniere h1 {
+		font-size: 28px;
+		margin-top: -1px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+/*page sophro*/
+	
 
 @media(min-width:768px){
 
