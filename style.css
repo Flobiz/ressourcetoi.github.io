@@ -902,13 +902,13 @@ h2 {
 /* menu à modifier en fonction de la taille de l'écran*/
 
 
-@media(min-width:767px){
-	/*.container {
+@media(max-width:768px){
+	.container {
 		width: 750px;
 	}
 	.container-fluid {
 		width: 750px;
-	}*/
+	}
 	#carousel{
 		display: none; /*page accueil*/
 	}	
