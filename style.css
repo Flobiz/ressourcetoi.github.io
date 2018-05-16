@@ -906,6 +906,9 @@ h2 {
 	.container {
 		width: 750px;
 	}
+	.container-fluid {
+		width: 750px;
+	}
 	#carousel{
 		display: none; /*page accueil*/
 	}	
@@ -1015,11 +1018,16 @@ h2 {
 	.container {
 		width: 970px;
 	}
-
+	.container-fluid {
+		width: 970px;
+	}
 
 }
 @media(min-width:1200px){
 	
 }.container {
+		width: 1170px;
+	}
+	.container-fluid {
 		width: 1170px;
 	}
