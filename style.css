@@ -903,12 +903,12 @@ h2 {
 
 
 @media(max-width:768px){
-	/*.container {
+	.container {
 		width: 750px;
 	}
 	.container-fluid {
 		width: 750px;
-	}*/
+	}
 	#carousel{
 		display: none; /*page accueil*/
 	}	
@@ -916,7 +916,7 @@ h2 {
         margin-bottom: 15px; /*page contact*/	
 	}
 	/*header et footer*/
-	/*.navbar-fixed-top {
+	.navbar-fixed-top {
 		margin-right: 0px;
 		margin-left: 0px;
 	}
@@ -989,7 +989,7 @@ h2 {
 	}
 	.site p {
 		font-size: 10px;
-	}*/
+	}
 /*commun à toutes les pages*/
 	.espace-menu{
 		margin-bottom: 5.5em;
@@ -1015,19 +1015,19 @@ h2 {
 }
 
 @media(min-width:992px){
-	/*.container {
+	.container {
 		width: 970px;
 	}
 	.container-fluid {
 		width: 970px;
-	}*/
+	}
 
 }
 @media(min-width:1200px){
 	
-/*}.container {
+}.container {
 		width: 1170px;
 	}
 	.container-fluid {
 		width: 1170px;
-	}*/
+	}
