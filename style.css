@@ -996,10 +996,15 @@ h2 {
 		margin-top: -1px;
 	}
 	h2 {
-		font-size: 18px;
+		font-size: 16px;
 	}
 /*page sophro*/
-
+	.ligne-sophro p {
+		font-size: 18px;
+	}
+	.ligne-sophro span {
+		font-size: 21px;
+	}
 
 /*page reiki*/
 .signe-reiki img {
