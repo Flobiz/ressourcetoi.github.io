@@ -902,13 +902,7 @@ h2 {
 /* menu à modifier en fonction de la taille de l'écran*/
 
 
-@media(max-width:768px){
-	.container {
-		width: 750px;
-	}
-	.container-fluid {
-		width: 750px;
-	}
+@media(max-width:767px){
 	#carousel{
 		display: none; /*page accueil*/
 	}	
@@ -988,7 +982,7 @@ h2 {
 		margin-top: 50px;
 	}
 	.site p {
-		font-size: 10px;
+		font-size: 12px;
 	}
 /*commun à toutes les pages*/
 	.espace-menu{
@@ -1000,7 +994,7 @@ h2 {
 		margin-right: -30px;
 	}
 	#titre-banniere h1 {
-		font-size: 24px;
+		font-size: 28px;
 		margin-top: -1px;
 	}
 	h2 {
@@ -1008,26 +1002,15 @@ h2 {
 	}
 /*page sophro*/
 	
-/*page reiki*/
-.signe-reiki img {
-	width: 30%;
+
+@media(min-width:768px){
 
 }
+@media(min-width:992px){
+	
 
-/*@media(min-width:992px){
-	.container {
-		width: 970px;
-	}
-	.container-fluid {
-		width: 970px;
-	}
 
 }
 @media(min-width:1200px){
 	
-}.container {
-		width: 1170px;
-	}
-	.container-fluid {
-		width: 1170px;
-	}*/
+}
