@@ -903,12 +903,12 @@ h2 {
 
 
 @media(max-width:768px){
-	.container {
+	/*.container {
 		width: 750px;
 	}
 	.container-fluid {
 		width: 750px;
-	}
+	}*/
 	#carousel{
 		display: none; /*page accueil*/
 	}	
@@ -1014,7 +1014,7 @@ h2 {
 
 }
 
-@media(min-width:992px){
+/*@media(min-width:992px){
 	.container {
 		width: 970px;
 	}
@@ -1030,4 +1030,4 @@ h2 {
 	}
 	.container-fluid {
 		width: 1170px;
-	}
+	}*/
