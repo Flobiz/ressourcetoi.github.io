@@ -1,12 +1,32 @@
 body{
 	color: #45545C;
-	background-color: white;
+	/*background-color: white;*/
+	background-image: url(images/fond-ecran.jpg);
 	font-family: forum;
 	font-size: 24px;
 	padding: 10px;
 	width: 100%
 }
-
+main{
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#page-contact {
+	background-color: white;
+}
+#page-sophrologie {
+	background-color: white;
+}
+#page-tarifs {
+	background-color: white;
+}
+#page-reiki {
+	background-color: white;
+}
+#page-methode-access {
+	background-color: white;
+}
 
 /* barre du haut avec coordonnées*/
 .navbar-fixed-top{
@@ -84,11 +104,6 @@ body{
 	background-color: #e7e7e7;
 }
 
-main{
-	background-color: white;
-}
-
-
 
 /* mise en page du carousel*/
 
@@ -97,10 +112,8 @@ main{
 	background-color: white;
 	width: auto;
 	height: auto;
-	margin-top: 7.8em;/*pour décoller de la navbar fixe*/
-	margin-bottom: 0.5em;	
-	margin-right: 21px;
-	margin-left: 21px;
+	margin-top: 7.6em;/*pour décoller de la navbar fixe*/
+	
 }
 
 
@@ -890,7 +903,7 @@ h2 {
 	padding-top: 3em;
 }
 .titre-access h2{
-		font-size: 24px;
+	font-size: 24px;
 	text-align: center;
 	font-weight: bold;
 	margin-bottom: 30px;
@@ -1218,6 +1231,6 @@ h2 {
 @media(max-width:1200px){
 	body {
 		background-image: url(images/fond-ecran.jpg);
-
+		
 	}
 }
