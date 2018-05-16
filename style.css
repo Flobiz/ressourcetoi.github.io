@@ -903,7 +903,7 @@ h2 {
 
 
 @media(max-width:768px){
-	.container .container-fluid {
+	.container {
 		width: 750px;
 	}
 	#carousel{
@@ -1008,7 +1008,7 @@ h2 {
 
 
 @media(min-width:992px){
-	.container .container-fluid {
+	.container {
 		width: 970px;
 	}
 
@@ -1016,6 +1016,6 @@ h2 {
 }
 @media(min-width:1200px){
 	
-}.container .container-fluid {
+}.container {
 		width: 1170px;
 	}
