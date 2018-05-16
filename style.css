@@ -902,7 +902,10 @@ h2 {
 /* menu à modifier en fonction de la taille de l'écran*/
 
 
-@media(max-width:767px){
+@media(max-width:768px){
+	.container .container-fluid {
+		width: 750px;
+	}
 	#carousel{
 		display: none; /*page accueil*/
 	}	
@@ -1003,14 +1006,16 @@ h2 {
 /*page sophro*/
 	
 
-@media(min-width:768px){
 
-}
 @media(min-width:992px){
-	
+	.container .container-fluid {
+		width: 970px;
+	}
 
 
 }
 @media(min-width:1200px){
 	
-}
+}.container .container-fluid {
+		width: 1170px;
+	}
