@@ -1166,6 +1166,10 @@ h2 {
 		margin-left: -20px;
 		margin-right: -20px;
 	}*/
+	.navbar-fixed-top {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 	#page-contact {
 		margin-left: -15px;
 		margin-right: -15px;
