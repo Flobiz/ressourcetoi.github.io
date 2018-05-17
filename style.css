@@ -1066,7 +1066,10 @@ h2 {
 
 
 @media(max-width:992px){
-	
+	body {
+		max-width: 970px;
+	}
+
 	/*header et footer*/
 	.navbar-fixed-top {
 		margin-right: 0px;
