@@ -310,11 +310,7 @@ footer{
 }
 #logo2{
 	margin-top: 30px;
-	margin-left: 0px;
-	margin-right: 10px;
-}
-#coordonnees {
-	margin-left: 10px;
+	margin-left: 30px;
 }
 #coordonnees h1 {
 	font-size: 20px;
@@ -387,16 +383,11 @@ footer{
 .liens {
 	font-size: 18px;
 }
-.site {
-	margin-right: -30px;
-	margin-left: -30px;
-}
 .site p {
-	font-size: 12px;	
+	font-size: 14px;	
 	background: white;
 	color: #7B8589;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 10px;
 }
 
 
@@ -924,148 +915,16 @@ h2 {
 /* menu à modifier en fonction de la taille de l'écran*/
 
 
-@media(max-width:767px)
-{
-	body {
-		background-image: none;
-	}
+@media(max-width:767px){
+
+
 	#carousel{
 		display: none; /*page accueil*/
 	}	
 	#contact iframe {
         margin-bottom: 15px; /*page contact*/	
 	}
-/*header et footer*/
-	#trois-photos {
-		margin-top: 6em;
-	}
-	.navbar-fixed-top {
-		margin-right: 0px;
-		margin-left: 0px;
-	}
-	#navbar-top {
-		font-size: 16px;	
-	}
-	#navbar-top img{
-		width: 30px;
-		padding-right: 10px;
-		margin-bottom: 5px;
-	}
-	#logo{
-		width: 120px;
-		padding: 5px 50px 5px 5px;
-}
-	#nom-logo h1 {
-		font-size: 20px;
-		margin-top: -40px;
-		padding-left: 100px;
-		padding-bottom: 5px;
-	}
-	#logo-nom p{
-		font-size: 16px;
-		padding-left: 120px;
-		margin-top: -10px;
-	}
-	.dropdown-menu{
-		font-size: 16px;
-	}
-	.navbar-nav{
-		font-size: 16px;
-	}
-	footer{
-		margin-right: -25px;
-		margin-left: -25px;
-	}
-	#logo2{
-		width: 0%;
-	}
-	#coordonnees {
-		margin-top: -40px;
-	}
-	#coordonnees h1 {
-		font-size: 18px;
-	}
-	#coordonnees h2 {
-		font-size: 14px;
-	}
-	#coordonnees p {
-		font-size: 16px;
-	}
-	#plan-du-site{
-		font-size: 16px;
-		margin-top: -40px;
-	}
-	#autres{
-		font-size: 16px;
-	}
-	.logo-chambre a:hover span {
-		font-size: 12px;
-	}
-	.liens {
-		font-size: 16px;
-	}
-	.facebook-media  {
-		margin-top: 50px;
-		font-size: 12px;
-	}
-	.site p {
-		font-size: 10px;
-		
-	}
-/*commun à toutes les pages*/
-	.espace-menu{
-		margin-bottom: 5.5em;
-	}
-	#titre-banniere {
-		height: 70px;
-	}
-	#titre-banniere h1 {
-		font-size: 28px;
-		margin-top: -1px;
-	}
-	h2 {
-		font-size: 22px;
-	}
-	
-	
-
-/*page sophro*/
-	.ligne-sophro p {
-		font-size: 16px;
-	}
-	.ligne-sophro span {
-		font-size: 18px;
-	}
-	#tableau-texte-photos img {
-		display: none;
-	}
-	#tableau-texte-photos li {
-		margin-left: -50px;
-		font-size: 18px;
-	}
-	#tableau-texte-photos h3 {
-		font-size: 22px;
-		margin-left: 20px;
-	}
-	#tableau-texte-photos ul {
-		margin-left: 20px;
-	}
-/*page reiki*/
-	.signe-reiki img {
-		display: none;
-	}
-	#texte-reiki-total {
-		font-size: 16px;
-	}
-/*page methode access*/
-	.partie-gauche1 {
-		margin-bottom: 10px;
-	}
-
-
-@media(max-width:992px){
-	
-	/*header et footer
+	/*header et footer*/
 	.navbar-fixed-top {
 		margin-right: 0px;
 		margin-left: 0px;
@@ -1144,7 +1003,138 @@ h2 {
 		margin-right: -20px;
 	}
 /*commun à toutes les pages*/
-	/*.espace-menu{
+	.espace-menu{
+		margin-bottom: 5.5em;
+	}
+	#titre-banniere {
+		height: 70px;
+	}
+	#titre-banniere h1 {
+		font-size: 28px;
+		margin-top: -1px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	
+	
+
+/*page sophro*/
+	.ligne-sophro p {
+		font-size: 16px;
+	}
+	.ligne-sophro span {
+		font-size: 18px;
+	}
+	#tableau-texte-photos img {
+		display: none;
+	}
+	#tableau-texte-photos li {
+		margin-left: -50px;
+		font-size: 18px;
+	}
+	#tableau-texte-photos h3 {
+		font-size: 22px;
+		margin-left: 20px;
+	}
+	#tableau-texte-photos ul {
+		margin-left: 20px;
+	}
+/*page reiki*/
+	.signe-reiki img {
+		display: none;
+	}
+	#texte-reiki-total {
+		font-size: 16px;
+	}
+/*page methode access*/
+	.partie-gauche1 {
+		margin-bottom: 10px;
+	}
+
+
+@media(max-width:992px){
+	
+	/*header et footer*/
+	.navbar-fixed-top {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	#navbar-top {
+		font-size: 16px;	
+	}
+	#navbar-top img{
+		width: 30px;
+		padding-right: 10px;
+		margin-bottom: 5px;
+	}
+	#logo{
+		width: 120px;
+		padding: 5px 50px 5px 5px;
+}
+	#nom-logo h1 {
+		font-size: 20px;
+		margin-top: -40px;
+		padding-left: 100px;
+		padding-bottom: 5px;
+	}
+	#logo-nom p{
+		font-size: 16px;
+		padding-left: 120px;
+		margin-top: -10px;
+	}
+	.dropdown-menu{
+		font-size: 16px;
+	}
+	.navbar-nav{
+		font-size: 16px;
+	}
+	footer{
+		margin-right: -25px;
+		margin-left: -25px;
+	}
+	#logo2{
+		width: 0%;
+	}
+	#coordonnees {
+		margin-top: -40px;
+	}
+	#coordonnees h1 {
+		font-size: 18px;
+	}
+	#coordonnees h2 {
+		font-size: 14px;
+	}
+	#coordonnees p {
+		font-size: 16px;
+	}
+	#plan-du-site{
+		font-size: 16px;
+		margin-top: -40px;
+	}
+	#autres{
+		font-size: 16px;
+	}
+	.logo-chambre a:hover span {
+		font-size: 12px;
+	}
+	.liens {
+		font-size: 16px;
+	}
+	.site p {
+		font-size: 14px;	
+	}
+	.facebook-media  {
+		margin-top: 50px;
+		font-size: 12px;
+	}
+	.site p {
+		font-size: 12px;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+/*commun à toutes les pages*/
+	.espace-menu{
 		margin-bottom: 5.5em;
 	}
 	#titre-banniere {
@@ -1183,7 +1173,7 @@ h2 {
 	}
 
 /*page sophro*/
-	/*.ligne-sophro p {
+	.ligne-sophro p {
 		font-size: 16px;
 	}
 	.ligne-sophro span {
@@ -1204,28 +1194,23 @@ h2 {
 		margin-left: 20px;
 	}
 /*page reiki*/
-	/*.signe-reiki img {
+	.signe-reiki img {
 		display: none;
 	}
 	#texte-reiki-total {
 		font-size: 16px;
 	}
 /*page methode access*/
-	/*.partie-gauche1 {
+	.partie-gauche1 {
 		margin-bottom: 10px;
 	}
 	.tableau2 li {
 		/*text-align: left;*/
-	/*}
+	}
 }
 @media(max-width:1200px){
-	
-		
-	}
-}*/
-@media(min-width:1400px) {
 	body {
-		max-width: 1400px;
-		margin: 0 auto;
+		background-image: url(images/fond-ecran.jpg);
+		
 	}
 }
