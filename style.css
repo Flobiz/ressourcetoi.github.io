@@ -310,7 +310,11 @@ footer{
 }
 #logo2{
 	margin-top: 30px;
-	margin-left: 20px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+#coordonnees {
+	margin-left: 10px;
 }
 #coordonnees h1 {
 	font-size: 20px;
