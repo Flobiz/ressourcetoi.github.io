@@ -387,11 +387,15 @@ footer{
 .liens {
 	font-size: 18px;
 }
+.site {
+	margin-right: -30px;
+	margin-left: -30px;
+}
 .site p {
-	font-size: 14px;	
+	font-size: 12px;	
 	background: white;
 	color: #7B8589;
-	padding: 10px;
+	padding-left: 10px;
 }
 
 
@@ -994,15 +998,16 @@ h2 {
 	.liens {
 		font-size: 16px;
 	}
-	.site p {
-		font-size: 14px;	
-	}
 	.facebook-media  {
 		margin-top: 50px;
 		font-size: 12px;
 	}
+	.site {
+	margin-right: -10px;
+	margin-left: -10px;
+}
 	.site p {
-		font-size: 12px;
+		font-size: 10px;
 		margin-left: -20px;
 		margin-right: -20px;
 	}
