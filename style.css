@@ -383,11 +383,15 @@ footer{
 .liens {
 	font-size: 18px;
 }
+.site {
+	margin-right: -30px;
+	margin-left: -30px;
+}
 .site p {
-	font-size: 14px;	
+	font-size: 12px;	
 	background: white;
 	color: #7B8589;
-	padding: 10px;
+	padding-left: 10px;
 }
 
 
@@ -999,8 +1003,7 @@ h2 {
 	}
 	.site p {
 		font-size: 12px;
-		margin-left: -20px;
-		margin-right: -20px;
+		
 	}
 /*commun à toutes les pages*/
 	.espace-menu{
