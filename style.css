@@ -1167,28 +1167,36 @@ h2 {
 		margin-right: -20px;
 	}*/
 	.navbar-fixed-top {
-		margin-left: 20px;
-		margin-right: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	footer {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	main {
+		margin-left: -0px;
+		margin-right: -0px;
 	}
 	#page-contact {
-		margin-left: -15px;
-		margin-right: -15px;
+		margin-left: -0px;
+		margin-right: -0px;
 	}
 	#page-sophrologie {
-		margin-left: -15px;
-		margin-right: -15px;
+		margin-left: -0px;
+		margin-right: -0px;
 	}
 	#page-tarifs {
-		margin-left: -15px;
-		margin-right: -15px;
+		margin-left: -0px;
+		margin-right: -0px;
 	}
 	#page-reiki {
-		margin-left: -15px;
-		margin-right: -15px;
+		margin-left: -0px;
+		margin-right: -0px;
 	}
 	#page-methode-access {
-		margin-left: -15px;
-		margin-right: -15px;
+		margin-left: -0px;
+		margin-right: -0px;
 	}
 
 /*page sophro*/
