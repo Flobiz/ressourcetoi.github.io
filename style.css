@@ -926,6 +926,9 @@ h2 {
 
 @media(max-width:767px)
 {
+	body {
+		background-image: none;
+	}
 	#carousel{
 		display: none; /*page accueil*/
 	}	
