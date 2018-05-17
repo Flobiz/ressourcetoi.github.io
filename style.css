@@ -919,16 +919,15 @@ h2 {
 /* menu à modifier en fonction de la taille de l'écran*/
 
 
-@media(max-width:767px){
-
-
+@media(max-width:767px)
+{
 	#carousel{
 		display: none; /*page accueil*/
 	}	
 	#contact iframe {
         margin-bottom: 15px; /*page contact*/	
 	}
-	/*header et footer*/
+/*header et footer*/
 	.navbar-fixed-top {
 		margin-right: 0px;
 		margin-left: 0px;
@@ -1058,7 +1057,7 @@ h2 {
 
 @media(max-width:992px){
 	
-	/*header et footer*/
+	/*header et footer
 	.navbar-fixed-top {
 		margin-right: 0px;
 		margin-left: 0px;
@@ -1137,7 +1136,7 @@ h2 {
 		margin-right: -20px;
 	}
 /*commun à toutes les pages*/
-	.espace-menu{
+	/*.espace-menu{
 		margin-bottom: 5.5em;
 	}
 	#titre-banniere {
@@ -1176,7 +1175,7 @@ h2 {
 	}
 
 /*page sophro*/
-	.ligne-sophro p {
+	/*.ligne-sophro p {
 		font-size: 16px;
 	}
 	.ligne-sophro span {
@@ -1197,23 +1196,22 @@ h2 {
 		margin-left: 20px;
 	}
 /*page reiki*/
-	.signe-reiki img {
+	/*.signe-reiki img {
 		display: none;
 	}
 	#texte-reiki-total {
 		font-size: 16px;
 	}
 /*page methode access*/
-	.partie-gauche1 {
+	/*.partie-gauche1 {
 		margin-bottom: 10px;
 	}
 	.tableau2 li {
 		/*text-align: left;*/
-	}
+	/*}
 }
 @media(max-width:1200px){
-	body {
-		background-image: url(images/fond-ecran.jpg);
+	
 		
 	}
-}
+}*/
