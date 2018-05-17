@@ -931,7 +931,7 @@ h2 {
 
 /*commun à toutes les pages*/
 	body {
-		max-width: 750px;
+		max-width: 760px;
 	}
 	.espace-menu{
 		margin-bottom: 5.5em;
@@ -990,13 +990,19 @@ h2 {
 		margin-right: 0px;
 		margin-left: 0px;
 	}
-	#navbar-top {
-		font-size: 14px;	
+	#navbar-top p {
+		font-size: 12px;	
 	}
 	#navbar-top img{
 		width: 30px;
 		padding-right: 10px;
 		margin-bottom: 5px;
+	}
+	#navbar-menu{
+		height: 45px;
+	}
+	.collapse {
+		height: 30px;
 	}
 	.navbar-nav{
 		font-size: 14px;
