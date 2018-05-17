@@ -391,7 +391,8 @@ footer{
 	font-size: 12px;	
 	background: white;
 	color: #7B8589;
-	padding-left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 
@@ -928,6 +929,9 @@ h2 {
         margin-bottom: 15px; /*page contact*/	
 	}
 /*header et footer*/
+	#trois-photos {
+		margin-top: 8em;
+	}
 	.navbar-fixed-top {
 		margin-right: 0px;
 		margin-left: 0px;
@@ -992,9 +996,6 @@ h2 {
 	}
 	.liens {
 		font-size: 16px;
-	}
-	.site p {
-		font-size: 14px;	
 	}
 	.facebook-media  {
 		margin-top: 50px;
