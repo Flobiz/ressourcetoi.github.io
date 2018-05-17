@@ -930,7 +930,7 @@ h2 {
 	}
 /*header et footer*/
 	#trois-photos {
-		margin-top: 8em;
+		margin-top: 6em;
 	}
 	.navbar-fixed-top {
 		margin-right: 0px;
@@ -1216,3 +1216,9 @@ h2 {
 		
 	}
 }*/
+@media(min-width:1400px) {
+	body {
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+}
