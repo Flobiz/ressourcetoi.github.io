@@ -1217,9 +1217,9 @@ h2 {
 		/*text-align: left;*/
 	}
 }
-@media(max-width:1200px){
+@media(max-width:1400px){
 	body {
-		background-image: url(images/fond-ecran.jpg);
-		
+		max-width: 1400px;
+		margin: 0 auto;	
 	}
 }
