@@ -1159,14 +1159,14 @@ h2 {
 	h2 {
 		font-size: 22px;
 	}
-	body {
-		width: auto;
+	.container {
+		
 	}
-	/*main {
-		margin-left: -15px;
-		margin-right: -15px;
+	main {
+		margin-left: -20px;
+		margin-right: -20px;
 	}
-	#page-contact {
+	/*#page-contact {
 		margin-left: -15px;
 		margin-right: -15px;
 	}
