@@ -427,6 +427,9 @@ footer{
 #titre-banniere h1 {
 	font-size: 30px;
 }
+#titre-banniere h4 {
+	font-size: 30px;
+}/*pour page sophro qui regroupe 2 pages et donc 2 h1 sinon*/
 .container {
 	width: auto;
 	height: auto;
@@ -948,6 +951,10 @@ h2 {
 		margin-top: 0px;
 	}
 	#titre-banniere h1 {
+		font-size: 28px;
+		margin-top: -1px;
+	}
+	#titre-banniere h4 {
 		font-size: 28px;
 		margin-top: -1px;
 	}
