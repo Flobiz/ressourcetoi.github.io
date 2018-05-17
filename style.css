@@ -951,9 +951,9 @@ h2 {
 		margin-left: -20px;
 		margin-right: -20px;
 	}*/
-	footer {
-		margin-left: -15px;
-		margin-right: -20px;
+	#footer {
+		margin-left: -0px;
+		margin-right: -0px;
 	}
 	main {
 		margin-left: -0px;
@@ -1000,9 +1000,6 @@ h2 {
 	}
 	#navbar-menu{
 		height: 45px;
-	}
-	.collapse {
-		height: 30px;
 	}
 	.navbar-nav{
 		font-size: 14px;
