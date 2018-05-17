@@ -394,7 +394,7 @@ footer{
 	margin-left: -30px;
 }
 .site p {
-	font-size: 12px;	
+	font-size: 10px;	
 	background: white;
 	color: #7B8589;
 	padding-left: 10px;
@@ -468,6 +468,13 @@ h2 {
 .well {
 	background-color: white;
 	border: none;
+}
+.well a {
+	text-decoration: none;
+	color: #45545C;
+}
+.well a:hover {
+	text-decoration: underline;
 }
 .form-group-nom  {
 	widows: 30px;
@@ -946,6 +953,9 @@ h2 {
 	}
 	h2 {
 		font-size: 22px;
+	}
+	p {
+		font-size: 16px;
 	}
 	/*main {
 		margin-left: -20px;
