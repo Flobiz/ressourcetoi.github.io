@@ -126,45 +126,47 @@ main{
 /*légende du carousel*/
 .carousel-caption h1{
 }
-#photo1 {
-	height: 180px;
+#photo-carousel img {
+
+}
+#photo1 h1 {
 	color: white;
-	text-align: left;
-	margin-left: 400px;
-	margin-top: -300px;
-	text-align: center;
+	left: ;
+	right: ;
+	top:;
+	bottom: ;
+	position: absolute;
 	background-color: rgba(146, 141, 43, 0.2);
 }
-#photo2 {
-	height: 180px;
+#photo2 h1 {
 	color: white;
-	text-align: left;
-	margin-left: 300px;
-	margin-top: -300px;
-	text-align: center;
+	left:;
+	right: ;
+	top: ;
+	bottom: ;
+	position: absolute;
 	background-color: rgba(146, 141, 43, 0.2);
 }
-#photo3 {
-	height: 180px;
+#photo3 h1 {
 	color: white;
-	text-align: left;
-	margin-left: 300px;
-	margin-top: -300px;
-	text-align: center;
+	left: ;
+	right: ;
+	top: ;
+	bottom: ;
+	position: absolute;
 	background-color: rgba(146, 141, 43, 0.2);
 }
-#photo4 {
-	height: 230px;
-	width: 350px;
+#photo4 h1 {
 	color: white;
-	text-align: left;
-	margin-left: -100px;
-	margin-top: -300px;
-	text-align: center;
+	left: ;
+	right: ;
+	top: ;
+	bottom: ;
+	position: absolute;
 	background-color: rgba(146, 141, 43, 0.2);
 }
 .img-responsive{
- margin: 0 auto;
+ 	margin: 0 auto;
 }
 
 
