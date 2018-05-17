@@ -929,6 +929,56 @@ h2 {
 @media(max-width:767px){
 
 
+/*commun à toutes les pages*/
+	body {
+		max-width: 750px;
+	}
+	.espace-menu{
+		margin-bottom: 5.5em;
+	}
+	#titre-banniere {
+		height: 70px;
+		margin-top: 0px;
+	}
+	#titre-banniere h1 {
+		font-size: 28px;
+		margin-top: -1px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	/*main {
+		margin-left: -20px;
+		margin-right: -20px;
+	}*/
+	footer {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	main {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-contact {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-sophrologie {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-tarifs {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-reiki {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-methode-access {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
 	#carousel{
 		display: none; /*page accueil*/
 	}	
@@ -948,6 +998,9 @@ h2 {
 		padding-right: 10px;
 		margin-bottom: 5px;
 	}
+	.navbar-nav{
+		font-size: 16px;
+	}
 	#logo{
 		width: 120px;
 		padding: 5px 50px 5px 5px;
@@ -965,13 +1018,6 @@ h2 {
 	}
 	.dropdown-menu{
 		font-size: 16px;
-	}
-	.navbar-nav{
-		font-size: 16px;
-	}
-	footer{
-		margin-right: -25px;
-		margin-left: -25px;
 	}
 	#logo2{
 		width: 0%;
@@ -1014,21 +1060,6 @@ h2 {
 		margin-left: -20px;
 		margin-right: -20px;
 	}
-/*commun à toutes les pages*/
-	.espace-menu{
-		margin-bottom: 5.5em;
-	}
-	#titre-banniere {
-		height: 70px;
-	}
-	#titre-banniere h1 {
-		font-size: 28px;
-		margin-top: -1px;
-	}
-	h2 {
-		font-size: 22px;
-	}
-	
 	
 
 /*page sophro*/
