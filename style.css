@@ -288,7 +288,26 @@ em {
 .texte3{
 	margin-top: 20px;
 }
-
+.choix1 {
+	padding-left: 2em;
+	font-size: 26px;
+	font-family: Caveat;
+}
+.choix2 {
+	padding-left: 2em;
+	font-size: 26px;
+	font-family: dancing script;
+}
+.choix3 {
+	padding-left: 2em;
+	font-size: 32px;
+	font-family: Italianno;
+}
+.choix4 {
+	padding-left: 2em;
+	font-size: 32px;
+	font-family: Sacramento;
+}
 
 /* mise en page du footer*/
 
