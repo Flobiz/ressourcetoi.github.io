@@ -375,6 +375,9 @@ footer{
 	text-align: center;
 	color: white;
 }
+.confiance a {
+	color: white;
+}
 .liens {
 	font-size: 18px;
 }
@@ -921,6 +924,17 @@ h2 {
 	margin-bottom: 30px;
 }
 
+/*mise en page des temoignages*/
+#temoignages {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#temoins {
+	background-color: white;
+}
+#temoins p {
+	font-size: 18px;
+}/* fin mise en page des temoignages*/
 
 /* menu à modifier en fonction de la taille de l'écran*/
 
@@ -1106,6 +1120,11 @@ h2 {
 	.partie-gauche1 {
 		margin-bottom: 10px;
 	}
+
+	#temoignages {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
 
 @media(max-width:992px){
