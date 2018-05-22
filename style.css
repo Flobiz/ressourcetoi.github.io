@@ -288,26 +288,12 @@ em {
 .texte3{
 	margin-top: 20px;
 }
-.choix1 {
-	padding-left: 2em;
-	font-size: 26px;
-	font-family: Caveat;
-}
 .choix2 {
 	padding-left: 2em;
 	font-size: 26px;
 	font-family: dancing script;
 }
-.choix3 {
-	padding-left: 2em;
-	font-size: 32px;
-	font-family: Italianno;
-}
-.choix4 {
-	padding-left: 2em;
-	font-size: 32px;
-	font-family: Sacramento;
-}
+
 
 /* mise en page du footer*/
 
@@ -1064,6 +1050,9 @@ h2 {
 		padding-left: 120px;
 		margin-top: -10px;
 	}
+	.choix2 {
+	font-size: 22px;
+	}
 	.dropdown-menu{
 		font-size: 16px;
 	}
@@ -1173,6 +1162,9 @@ h2 {
 	.navbar-fixed-top {
 		margin-left: 10px;
 		margin-right: 10px;
+	}
+	.choix2 {
+	font-size: 22px;
 	}
 	footer {
 		margin-left: -15px;
