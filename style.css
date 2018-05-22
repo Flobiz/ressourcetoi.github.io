@@ -69,6 +69,12 @@ main{
 	margin-top: 10px;
 	margin-bottom: -2px;
 }
+/*pour les autres pages car h1 banniere*/
+#nom-logo h6 {
+	font-size: 45px;
+	margin-top: 10px;
+	margin-bottom: -2px;
+}
 #logo-nom p{
 	font-size: 24px;
 	padding-left: 50px;
@@ -124,44 +130,31 @@ main{
 }
 
 /*légende du carousel*/
-.carousel-caption h1{
-}
-#photo-carousel img {
-
-}
-#photo1 h1 {
+#photo1 h4 {
 	color: white;
+	font-size: 32px;
 	left: 100px;
-	right: ;
-	top:;
-	bottom: ;
 	position: absolute;
 	background-color: rgba(146, 141, 43, 0.2);
 }
-#photo2 h1 {
+#photo2 h4 {
 	color: white;
+	font-size: 32px;
 	left: 100px;
-	right: ;
-	top: ;
-	bottom: ;
 	position: absolute;
 	background-color: rgba(146, 141, 43, 0.2);
 }
-#photo3 h1 {
+#photo3 h4 {
 	color: white;
+	font-size: 32px;
 	left: 100px;
-	right: ;
-	top: ;
-	bottom: ;
 	position: absolute;
 	background-color: rgba(146, 141, 43, 0.2);
 }
-#photo4 h1 {
+#photo4 h4 {
 	color: white;
+	font-size: 32px;
 	left: 100px;
-	right: ;
-	top: ;
-	bottom: ;
 	position: absolute;
 	background-color: rgba(146, 141, 43, 0.2);
 }
@@ -318,13 +311,9 @@ footer{
 #coordonnees {
 	padding-left: 10px;
 }
-#coordonnees h1 {
+#coordonnees h5 {
 	font-size: 20px;
-	margin-top: 14px;
-	padding-bottom: 8px;
-}
-#coordonnees h2 {
-	font-size: 16px;
+	padding-top: 6px;
 }
 #coordonnees p {
 	font-size: 18px;
@@ -1031,6 +1020,12 @@ h2 {
 		padding-left: 100px;
 		padding-bottom: 5px;
 	}
+	#nom-logo h6 {
+		font-size: 20px;
+		margin-top: -40px;
+		padding-left: 100px;
+		padding-bottom: 5px;
+	}
 	#logo-nom p{
 		font-size: 16px;
 		padding-left: 120px;
@@ -1045,11 +1040,8 @@ h2 {
 	#coordonnees {
 		margin-top: -40px;
 	}
-	#coordonnees h1 {
-		font-size: 18px;
-	}
-	#coordonnees h2 {
-		font-size: 14px;
+	#coordonnees h5 {
+		font-size: 16px;
 	}
 	#coordonnees p {
 		font-size: 16px;
@@ -1187,8 +1179,14 @@ h2 {
 	#logo{
 		width: 120px;
 		padding: 5px 50px 5px 5px;
-}
+	}
 	#nom-logo h1 {
+		font-size: 20px;
+		margin-top: -40px;
+		padding-left: 100px;
+		padding-bottom: 5px;
+	}
+	#nom-logo h6 {
 		font-size: 20px;
 		margin-top: -40px;
 		padding-left: 100px;
@@ -1211,11 +1209,8 @@ h2 {
 	#coordonnees {
 		margin-top: -40px;
 	}
-	#coordonnees h1 {
-		font-size: 18px;
-	}
-	#coordonnees h2 {
-		font-size: 14px;
+	#coordonnees h5 {
+		font-size: 16px;
 	}
 	#coordonnees p {
 		font-size: 16px;
