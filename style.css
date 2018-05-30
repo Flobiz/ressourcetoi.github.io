@@ -927,8 +927,11 @@ h2 {
 #texte-sophro-pro {
 	width: auto;
 }
-#texte-sophro-pro p {
+#texte-sophro-pro {
 	font-size: 18px;
+}
+#texte-sophro-pro li {
+	font-size: 20px;
 }
 #texte-sophro-pro span {
 	font-weight: bold;
@@ -936,8 +939,8 @@ h2 {
 #texte-sophro-pro li {
 	font-size: 20px;
 }
-#texte-sophro-pro ul {
-	font-size: 20px;
+.accroche-pro {
+	margin-top: 20px;
 }
 .pro4 h3 {
 	text-align: center;
@@ -951,6 +954,12 @@ h2 {
 	color: #45545C;
 	font-weight: normal;
 }
+.pro2 li {
+	margin-left: 50px;
+}
+.pro2 ul {
+	margin-left: -40px;
+}
 #contact-sophro-pro {
 	font-weight: bold;
 	text-align: center;
@@ -958,7 +967,7 @@ h2 {
 #contact-sophro-pro img {
 	width: 20%;
 	position: center;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	padding-top: 10px;
 }
 
