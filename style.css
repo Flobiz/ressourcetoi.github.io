@@ -973,7 +973,6 @@ h2 {
 	margin-bottom: 30px;
 	padding-top: 10px;
 }
-
 /*fin mise en page sophro entreprises*/
 
 /*mise en page de la page techniques energetiques qui réuni reiki et sophro*/
@@ -1179,6 +1178,25 @@ h2 {
 	}
 	#tableau-texte-photos ul {
 		margin-left: 20px;
+	}
+/*page sophro-pro*/
+	#texte-sophro-pro {
+	font-size: 16px;
+	}
+	#texte-sophro-pro li {
+		font-size: 18px;
+	}
+	.pro4 ul {
+		font-size: 16px;
+	}
+	.pro2 li {
+		margin-left: 30px;
+	}
+	#contact-sophro-pro img {
+		display: none;
+	}
+	#contact-sophro-pro p {
+		font-size: 18px
 	}
 /*page reiki*/
 	.signe-reiki img {
