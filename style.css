@@ -791,7 +791,7 @@ h2 {
 
 
 
-/*mise en page de la page sophrologie*/
+/*mise en page de la page sophrologie particuliers*/
 #page-sophrologie {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -917,6 +917,57 @@ h2 {
 }
 
 /*fin de la mise en page de la page sophrologie*/
+
+/*mise en page de la page sophro entreprises*/
+#page-sophrologie-pro {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: white;
+	margin-top: 20px;
+}
+#texte-sophro-pro {
+	width: auto;
+}
+#texte-sophro-pro p {
+	font-size: 18px;
+}
+#texte-sophro-pro span {
+	font-weight: bold;
+}
+#texte-sophro-pro li {
+	font-size: 20px;
+}
+#texte-sophro-pro ul {
+	font-size: 20px;
+}
+.pro-accroche {
+	margin-top: 20px;
+	color: blue;
+}
+.pro4 h3 {
+	text-align: center;
+	color: #928D2B;
+	font-size: 24px;
+	font-weight: bold;
+}
+.pro4 ul {
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
+}
+#contact-sophro-pro {
+	font-weight: bold;
+	text-align: center;
+}
+#contact-sophro-pro img {
+	width: 20%;
+	position: center;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+/*fin mise en page sophro entreprises*/
 
 /*mise en page de la page techniques energetiques qui réuni reiki et sophro*/
 .espace-techniques-energetiques {
