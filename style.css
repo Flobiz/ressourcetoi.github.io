@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	color: #45545C;
 	/*background-color: white;*/
@@ -1377,4 +1378,1378 @@ h2 {
 		max-width: 1400px;
 		margin: 0 auto;	
 	}
+=======
+body{
+	color: #45545C;
+	/*background-color: white;*/
+	background-image: url(images/fond-ecran.jpg);
+	font-family: forum;
+	font-size: 24px;
+	padding: 10px;
+	width: 100%
+}
+main{
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#page-contact {
+	background-color: white;
+}
+#page-sophrologie {
+	background-color: white;
+}
+#page-tarifs {
+	background-color: white;
+}
+#page-reiki {
+	background-color: white;
+}
+#page-methode-access {
+	background-color: white;
+}
+
+/* barre du haut avec coordonnées*/
+.navbar-fixed-top{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#navbar-top{
+	display: flex;
+	background-color: #7B8589;
+	min-height: 30px;
+	color: white;
+	font-size: 14px;
+	padding-top: 3px;
+	padding-left: 30px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#navbar-top img{
+	width: 44px;
+	padding-right: 20px;
+}
+#navbar-coordonnees p{
+	font-weight: normal;
+}
+
+/*barre du haut avec logo*/
+#logo-nom {
+	display: flex;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+}
+#logo{
+	width: 200px;
+	padding: 10px 50px 10px 10px;
+}
+#nom-logo h1 {
+	font-size: 45px;
+	margin-top: 10px;
+	margin-bottom: -2px;
+}
+/*pour les autres pages car h1 banniere*/
+#nom-logo h6 {
+	font-size: 45px;
+	margin-top: 10px;
+	margin-bottom: -2px;
+}
+#logo-nom p{
+	font-size: 24px;
+	padding-left: 50px;
+
+}
+#nom-logo {
+	width: auto;
+}
+
+/*mise en page barre totale de navigation*/
+
+/* bouton accueil et barre de navigation sur smartphone*/
+#navbar-menu {
+	background-color: #e7e7e7;
+	max-height: 50px;
+}
+
+
+
+/*boutons menu*/
+#bs-example-navbar-collapse-1{
+	background-color: #e7e7e7;
+}
+
+/*boutons menus sauf accueil*/
+.navbar-nav{
+	background-color: #e7e7e7;
+}
+
+/*sous-menu du menu déroulant*/
+.dropdown-menu{
+	font-size: 22px;
+	background-color: #e7e7e7;
+}
+
+
+/* mise en page du carousel*/
+
+/*container du carousel*/
+#carousel.container-fluid {
+	background-color: white;
+	width: auto;
+	height: auto;
+	margin-top: 7.6em;/*pour décoller de la navbar fixe*/
+	
+}
+
+
+/*images du carousel*/
+#photo-carousel{
+	transform: scale(1.3,1.1);
+	position: center;
+}
+
+/*légende du carousel*/
+#photo1 h4 {
+	color: white;
+	font-size: 32px;
+	left: 100px;
+	position: absolute;
+	background-color: rgba(146, 141, 43, 0.2);
+}
+#photo2 h4 {
+	color: white;
+	font-size: 32px;
+	left: 100px;
+	position: absolute;
+	background-color: rgba(146, 141, 43, 0.2);
+}
+#photo3 h4 {
+	color: white;
+	font-size: 32px;
+	left: 100px;
+	position: absolute;
+	background-color: rgba(146, 141, 43, 0.2);
+}
+#photo4 h4 {
+	color: white;
+	font-size: 32px;
+	left: 100px;
+	position: absolute;
+	background-color: rgba(146, 141, 43, 0.2);
+}
+.img-responsive{
+ 	margin: 0 auto;
+}
+
+
+/*carousel fullscreen - vertically centered caption*/
+.carousel-fullscreen .carousel-caption{
+	top: 50%;
+	bottom: 100px;
+	-webkit-transform: tranlate(0, -50%);
+	-ms-transform: tranlate(0, -50%);
+	transform: tranlate(0, -50%);
+}
+/*fondu du carousel*/
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+/*.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000.
+	opacity:0.3;
+	transition: all 0.2s ease-out;*/
+}
+/*fin de fondu du carousel*/
+
+
+/* mise en page des 3 photos*/
+.container-fluid {
+	display: flex;
+}
+
+
+/* bloc des 3 photos*/
+#trois-photos{
+	display: block;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto; 
+	padding: 0px;
+	background-color: white;
+	padding-top: 40px;
+}
+#trois-photos img{
+	position: relative;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#trois-photos img:hover{
+	opacity: 0.3;
+}
+#trois-photos img:hover::after{
+	content: url('images/logo-survol1.png');
+	position: absolute;
+}
+.btn{
+	font-color: #424242;
+	font-size: 20px;
+	background-color: white;
+	display: block;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: none; 
+}
+.btn:hover{
+	color:#D6D6D6FF;
+	background-color: white;
+}
+
+
+/* mise en page qui suis-je*/
+.presentation{
+	display: flex-inline;
+	padding-top: 40px;
+}
+.photo-Amandine-Mardin{
+	justify-content: center;
+	width: 100%;
+}
+#textes{
+	text-align: justify;
+	font-size: 18px;
+	line-height: 30px;
+}
+#textes p{
+	font-weight: normal;
+}
+.texte1{
+	margin-bottom: 30px;
+}
+.texte1 a {
+	text-decoration: none;
+	color: #45545C;
+}
+.texte1 a:hover {
+	text-decoration: underline;
+}
+strong  {
+	font-weight: normal;
+}
+em { 
+	font-style: normal;
+ }
+.texte3{
+	margin-top: 20px;
+}
+.choix2 {
+	padding-left: 2em;
+	font-size: 26px;
+	font-family: dancing script;
+}
+
+
+/* mise en page du footer*/
+
+footer{
+	width: auto;
+	height: auto;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+#bas-page{
+	font-size: 24px;
+	background-color: #7B8589;
+	color: white;
+}
+#logo2{
+	margin-top: 30px;
+	margin-left: 0px;
+	padding-right: 5px;
+}
+#coordonnees {
+	padding-left: 10px;
+}
+#coordonnees h5 {
+	font-size: 20px;
+	padding-top: 6px;
+}
+#coordonnees p {
+	font-size: 18px;
+	color: white;
+}
+#coordonnees i {
+	padding-right: 5px;
+}
+.fa-facebook {
+	font-size: 25px;
+	color: black;
+	padding-left: 3px;
+}
+#plan-du-site{
+	font-size: 18px;
+}
+#plan-du-site a {
+	color: white;
+}
+#plan-du-site li {
+	list-style-type:none;
+	padding-left: 0px;
+}
+#plan-du-site ul {
+	padding-top: 15px;
+}
+.fin {
+	padding-bottom: 10px;
+}
+#autres{
+	font-size: 18px;
+}
+.logo-chambre{
+	padding-top:20px;
+}
+.logo-chambre img {
+	width: 50%;
+}
+.logo-chambre img:hover {
+	opacity: 0;
+}
+.logo-chambre a {
+	text-decoration: none;
+}
+.logo-chambre a:hover {
+	background:none;
+}
+.logo-chambre a span {
+	display: none;
+}
+.logo-chambre a:hover span {
+	display: inline;
+	position: absolute;
+	width: 50%;
+	left: 2px;
+	font-size: 18px;
+	border:1px solid #7B8589;
+	background: #7B8589;
+	text-align: center;
+	color: white;
+}
+.confiance a {
+	color: white;
+}
+.liens {
+	font-size: 18px;
+}
+.site {
+	margin-right: -30px;
+	margin-left: -30px;
+}
+.site p {
+	font-size: 12px;	
+	background: white;
+	color: #7B8589;
+	padding-left: 10px;
+}
+
+
+
+
+/*MISE EN PAGE DES AUTRES PAGES*/
+
+/* mise en page de toutes les pages*/
+#espace {
+	padding-top: 7.5em;
+	width: auto;
+}
+
+#titre-banniere {
+	background-image: url(images/titre.jpg);
+	width: auto;
+	height: 100px;
+	position: relative;
+}
+.titre-banniere {
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+#titre-banniere h1 {
+	font-size: 30px;
+}
+#titre-banniere h4 {
+	font-size: 30px;
+}/*pour page sophro qui regroupe 2 pages et donc 2 h1 sinon*/
+.container {
+	width: auto;
+	height: auto;
+}
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #E6B628;
+}
+
+
+
+/*mise en page de la page contact*/
+#page-contact{
+    font-family: forum;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+/* mise en page de la carte*/
+.form-map {
+	display: block;
+	width: auto;
+	background-color: white;
+	margin-bottom: -40px;
+}
+#map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+	height:500px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+ /* mise en page du formulaire*/
+#page-contact .well{
+     border-radius:0;
+}
+.well {
+	background-color: white;
+	border: none;
+}
+.well a {
+	text-decoration: none;
+	color: #45545C;
+}
+.well a:hover {
+	text-decoration: underline;
+}
+.form-group-nom  {
+	widows: 30px;
+}
+#bouton-form {
+	background-color: #FFD63C;
+	margin-bottom: 10px;
+	margin-left: 200px;
+}
+#page-contact .form-control{
+    border-radius: 0;
+    border:1px solid #7B8589;
+}
+#page-contact button{
+    border-radius:0;
+    border:1px solid #7B8589;
+}
+
+/*@media (max-width: 768px) repris sur media fin de page*/
+
+
+/*mise en page des liens sur page contact*/
+#lieu {
+	display: flex;
+	width: auto;
+	height: auto;
+}
+.photo-cab {
+	width: 100%;
+	margin-top: 30px;
+}
+.titre-cab {
+	margin-top: 10px;
+}
+.titre-cab h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.titre-cab p {
+	font-size: 18px;
+}
+.fa-mobile-alt {
+	padding-right: 10px;
+}
+.facebook i {
+	font-size: 25px;
+	margin-top: 20px;
+	text-align: center;
+	color: black;
+}
+/*fin de mise en page de la page contacts*/
+
+
+
+/* mise en page de la page tarifs*/
+#page-tarifs {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#tableau-particuliers {
+	width: 100%;
+}
+#trois-tableaux {
+	margin-right: -45px;
+	margin-left: -45px;
+}
+#page-tarifs li {
+	list-style-type:none;
+	font-size: 20px;
+}
+.logo-cheque-sante {
+	width: 70px;
+	padding-left: 10px;
+}
+.tarifs {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+.titre-tarifs {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+}
+#un-tableau {
+	margin-right: -30px;
+	margin-left: -30px;
+	margin-top: 40px;
+}
+.tarifs {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.individuel1 {
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.individuel2 {
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.individuel3 {
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.individuel1 h3 {
+	font-weight: bold;
+	font-size: 24px;
+	color: #45545C;
+	text-align: center;
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+}
+.individuel2 h3 {
+	font-weight: bold;
+	font-size: 24px;
+	color: #45545C;
+	text-align: center;
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+}
+.individuel3 h3 {
+	font-weight: bold;
+	font-size: 24px;
+	color: #45545C;
+	text-align: center;
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+}
+.individuel1 ul {
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+	margin-top: -10px;
+}
+.individuel2 ul {
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+	margin-top: -10px;
+}
+.individuel3 ul {
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+	margin-top: -10px;
+}
+.collective h3 {
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	margin-top: -7px;
+}
+.collective p {
+	font-size: 18px;
+}
+.texte-tarifs {
+	font-size: 18px;
+	text-align: justify;
+	padding-top: 20px;
+}
+.collective {
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+}
+
+
+/*fin de mise en page de la page tarifs*/
+
+
+/*mise en page de la page reiki*/
+#page-reiki {
+	margin-right: 20px;
+	margin-left: 20px;
+	width: auto;
+}
+.signe-reiki img {
+	width: 80%;
+	padding-left: 20px;
+}
+.texte-reiki1 {
+	font-size: 18px;
+	text-align: justify;
+}
+#reiki-1 {
+	padding-top: 30px;
+}
+#reiki-2 {
+	height: 200%;
+	width: auto;
+	padding-top: 20px;
+}
+.texte-reiki2 li {
+	font-size: 18px;
+}
+.tableau-reiki2 img {
+	width: 15%;
+	padding-bottom: 5px;
+}
+.tableau-reiki2 p {
+	font-size: 18px;
+}
+#reiki-3 {
+	padding-top: 30px;
+}
+.reiki3 ul {
+	font-size: 18px;
+}
+.reiki3 p {
+	font-size: 18px;
+
+}/*fin de mise en page de la page reiki*/
+
+
+
+/*mise en page de la page access*/
+#page-methode-access {
+	width: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.tableau1 {
+	width: auto;
+	margin-top: 30px;
+	margin-left: -25px;
+	margin-right: -25px;
+}
+.titre-access h1 {
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.titre-access img {
+	width: 5%;
+}
+.titre-access p {
+	text-align: center;
+	padding-bottom: 10px;
+}
+.partie-gauche1 {
+	font-size: 22px;
+	color: #45545C;
+	text-align: justify;
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+	margin-right: 5px;
+	margin-left: -5px;
+	
+}
+.partie-gauche1 h3 {
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+}
+.partie-gauche1 p {
+	font-size: 18px;
+	padding-top: 10px;
+}
+.partie-droite1 {
+	font-size: 22px;
+	color: #45545C;
+	text-align: justify;
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+	margin-left: 5px;
+	margin-right: -5px;
+}
+.partie-droite1 h3 {
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+}
+.partie-droite1 p {
+	font-size: 18px;
+	padding-top: 10px;
+}
+.tableau2 {
+	text-align: justify;
+}
+
+.partie-gauche2 ul {
+	font-size: 18px;
+}
+.partie-gauche2 p {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.partie-droite2 ul {
+	font-size: 18px;
+}
+.partie-droite2 p {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.espace-tableau {
+	margin: 1em;
+}
+.texte-access {
+	text-align: justify;
+}
+.texte-access ul {
+	font-size: 18px;
+}
+.texte-access p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+/*fin de la mise en page de la page access*/
+
+
+
+/*mise en page de la page sophrologie particuliers*/
+#page-sophrologie {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#texte-sophro-total {
+	width: auto;
+}
+.texte-sophro1 {
+	width: auto;
+}
+.ligne-sophro {
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+.ligne-sophro p {
+	text-align: center;
+}
+.jaune {
+	color: #FFD63C;
+	font-weight: bold;
+}
+.vert {
+	color: #928D2B;
+	font-weight: bold;
+}
+.texte-sophro1 {
+	font-size: 18px;
+	text-align: justify;
+}	
+.gras {
+	font-weight: bold;
+}
+#tableau-texte-photos img {
+	display: inline-block;
+}
+.sous-titre-sophro {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 2em;
+	color: #E6B628;
+}
+.photo-sophro1 img {
+	width: 300px;
+}
+.photo-sophro2 img {
+	width: 300px;
+	margin-top: 30px;
+}
+.photo-sophro3 img {
+	width: 300px;
+	margin-top: 30px;
+}
+.photo-mini1 {
+	margin-left: 50px;
+}
+.photo-mini2 {
+	margin-left: 200px;
+}
+.photo-mini3 {
+	margin-left: 100px;
+}
+.texte-sophro1 ul {
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
+}
+.photo-sophro1 h3 {
+	text-align: center;
+	color: #928D2B;
+	font-size: 24px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+.texte-sophro1 li {
+	text-align: left;
+}
+.texte-sophro2 ul {
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
+	margin-left: 30px;
+}
+.photo-sophro2 h3 {
+	text-align: center;
+	color: #928D2B;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 150px;
+}
+.texte-sophro2 li {
+	text-align: left;
+}
+.texte-sophro3 ul {
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
+	margin-left: 110px;
+}
+.photo-sophro3 h3 {
+	text-align: center;
+	color: #928D2B;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: -70px;
+}
+.texte-sophro3 li {
+	text-align: left;
+}
+.texte-sophro-sous-photos {
+	margin-top: 2em;
+}
+.texte-sophro-sous-photos h2 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+.texte-sophro-sous-photos p {
+	font-size: 18px;
+	text-align: justify;
+}
+
+/*fin de la mise en page de la page sophrologie*/
+
+/*mise en page de la page sophro entreprises*/
+#page-sophrologie-pro {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: white;
+}
+#texte-sophro-pro {
+	width: auto;
+}
+#texte-sophro-pro {
+	font-size: 18px;
+}
+#texte-sophro-pro li {
+	font-size: 20px;
+}
+#texte-sophro-pro span {
+	font-weight: bold;
+}
+#texte-sophro-pro li {
+	font-size: 20px;
+}
+.accroche-pro {
+	margin-top: 20px;
+}
+.pro4 h3 {
+	text-align: center;
+	color: #928D2B;
+	font-size: 24px;
+	font-weight: bold;
+}
+.pro4 ul {
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
+}
+.pro2 li {
+	margin-left: 50px;
+}
+.pro2 ul {
+	margin-left: -40px;
+}
+#contact-sophro-pro {
+	font-weight: bold;
+	text-align: center;
+}
+#contact-sophro-pro img {
+	width: 20%;
+	position: center;
+	margin-bottom: 30px;
+	padding-top: 10px;
+}
+
+/*fin mise en page sophro entreprises*/
+
+/*mise en page de la page techniques energetiques qui réuni reiki et sophro*/
+.espace-techniques-energetiques {
+	padding-top: 3em;
+}
+.titre-access h2{
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+/*mise en page des temoignages*/
+#temoignages {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#temoins {
+	background-color: white;
+}
+#temoins p {
+	font-size: 18px;
+}/* fin mise en page des temoignages*/
+
+/* menu à modifier en fonction de la taille de l'écran*/
+
+
+@media(max-width:767px){
+
+
+/*commun à toutes les pages*/
+	body {
+		max-width: 760px;
+	}
+	.espace-menu{
+		margin-bottom: 5em;
+	}
+	#titre-banniere {
+		height: 70px;
+		margin-top: 0px;
+	}
+	#titre-banniere h1 {
+		font-size: 28px;
+		margin-top: -1px;
+	}
+	#titre-banniere h4 {
+		font-size: 28px;
+		margin-top: -1px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	p {
+		font-size: 16px;
+	}
+	/*main {
+		margin-left: -20px;
+		margin-right: -20px;
+	}*/
+	#footer {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	/*main {
+		margin-left: -5px;
+		margin-right: -5px;
+	}*/
+	#page-contact {
+		margin-left: -0px;
+		margin-right: -5px;
+	}
+	#page-sophrologie {
+		margin-left: -0px;
+		margin-right: -5px;
+	}
+	#page-tarifs {
+		margin-left: -0px;
+		margin-right: -5px;
+	}
+	#page-reiki {
+		margin-left: -0px;
+		margin-right: -5px;
+	}
+	#page-methode-access {
+		margin-left: -0px;
+		margin-right: -5px;
+	}
+	#carousel{
+		display: none; /*page accueil*/
+	}	
+	#contact iframe {
+        margin-bottom: 15px; /*page contact*/	
+	}
+	/*header et footer*/
+	.navbar-fixed-top {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	#navbar-top p {
+		font-size: 12px;	
+	}
+	#navbar-top img{
+		width: 30px;
+		padding-right: 10px;
+		margin-bottom: 5px;
+	}
+	#navbar-menu{
+		height: 45px;
+	}
+	.navbar-nav{
+		font-size: 14px;
+	}
+	#logo{
+		width: 120px;
+		padding: 5px 50px 5px 5px;
+}
+	#nom-logo h1 {
+		font-size: 20px;
+		margin-top: -40px;
+		padding-left: 100px;
+		padding-bottom: 5px;
+	}
+	#nom-logo h6 {
+		font-size: 20px;
+		margin-top: -40px;
+		padding-left: 100px;
+		padding-bottom: 5px;
+	}
+	#logo-nom p{
+		font-size: 16px;
+		padding-left: 120px;
+		margin-top: -10px;
+	}
+	.choix2 {
+	font-size: 22px;
+	padding-left: 0px;
+	}
+	.dropdown-menu{
+		font-size: 16px;
+	}
+	#logo2{
+		width: 0%;
+	}
+	#coordonnees {
+		margin-top: -40px;
+	}
+	#coordonnees h5 {
+		font-size: 16px;
+	}
+	#coordonnees p {
+		font-size: 16px;
+	}
+	#plan-du-site{
+		font-size: 16px;
+		margin-top: -40px;
+	}
+	#autres{
+		font-size: 16px;
+	}
+	.logo-chambre a:hover span {
+		font-size: 12px;
+	}
+	.liens {
+		font-size: 16px;
+	}
+	.facebook-media  {
+		margin-top: 50px;
+		font-size: 12px;
+	}
+	.site {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+	.site p {
+		font-size: 8px;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	
+
+/*page sophro*/
+	.ligne-sophro p {
+		font-size: 16px;
+	}
+	.ligne-sophro span {
+		font-size: 18px;
+	}
+	#tableau-texte-photos img {
+		display: none;
+	}
+	#tableau-texte-photos li {
+		margin-left: -50px;
+		font-size: 18px;
+	}
+	#tableau-texte-photos h3 {
+		font-size: 22px;
+		margin-left: 20px;
+	}
+	#tableau-texte-photos ul {
+		margin-left: 20px;
+	}
+/*page reiki*/
+	.signe-reiki img {
+		display: none;
+	}
+	#texte-reiki-total {
+		font-size: 16px;
+	}
+/*page methode access*/
+	.partie-gauche1 {
+		margin-bottom: 10px;
+	}
+
+	#temoignages {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+@media(max-width:992px){
+/*commun à toutes les pages*/
+	body {
+		max-width: 970px;
+	}
+	.espace-menu{
+		margin-bottom: 7em;
+	}
+	#titre-banniere {
+		height: 70px;
+		margin-top: 0px;
+	}
+	#titre-banniere h1 {
+		font-size: 28px;
+		margin-top: -1px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	
+	/*main {
+		margin-left: -20px;
+		margin-right: -20px;
+	}*/
+	.navbar-fixed-top {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.choix2 {
+	font-size: 22px;
+	padding-left: 0px;
+	}
+	footer {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	main {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-contact {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-sophrologie {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-tarifs {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-reiki {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-methode-access {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+
+	/*header et footer*/
+	#navbar-top {
+		font-size: 16px;
+		padding-left: 10px;
+		padding-left: 10px;
+	}
+	#navbar-top img{
+		width: 30px;
+		padding-right: 10px;
+		margin-bottom: 5px;
+	}
+	#logo{
+		width: 120px;
+		padding: 5px 50px 5px 5px;
+	}
+	#nom-logo h1 {
+		font-size: 20px;
+		margin-top: -40px;
+		padding-left: 100px;
+		padding-bottom: 5px;
+	}
+	#nom-logo h6 {
+		font-size: 20px;
+		margin-top: -40px;
+		padding-left: 100px;
+		padding-bottom: 5px;
+	}
+	#logo-nom p{
+		font-size: 16px;
+		padding-left: 120px;
+		margin-top: -10px;
+	}
+	.dropdown-menu{
+		font-size: 16px;
+	}
+	.navbar-nav{
+		font-size: 16px;
+	}
+	#logo2{
+		width: 0%;
+	}
+	#coordonnees {
+		margin-top: -40px;
+	}
+	#coordonnees h5 {
+		font-size: 16px;
+	}
+	#coordonnees p {
+		font-size: 16px;
+	}
+	#plan-du-site{
+		font-size: 16px;
+		margin-top: -40px;
+	}
+	#autres{
+		font-size: 16px;
+	}
+	.logo-chambre a:hover span {
+		font-size: 12px;
+	}
+	.liens {
+		font-size: 16px;
+	}
+	.site p {
+		font-size: 14px;	
+	}
+	.facebook-media  {
+		margin-top: 50px;
+		font-size: 12px;
+	}
+	.site p {
+		font-size: 12px;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+
+/*page sophro*/
+	.ligne-sophro p {
+		font-size: 16px;
+	}
+	.ligne-sophro span {
+		font-size: 18px;
+	}
+	#tableau-texte-photos img {
+		display: none;
+	}
+	#tableau-texte-photos li {
+		margin-left: -50px;
+		font-size: 18px;
+	}
+	#tableau-texte-photos h3 {
+		font-size: 22px;
+		margin-left: 20px;
+	}
+	#tableau-texte-photos ul {
+		margin-left: 20px;
+	}
+/*page reiki*/
+	.signe-reiki img {
+		display: none;
+	}
+	#texte-reiki-total {
+		font-size: 16px;
+	}
+/*page methode access*/
+	.partie-gauche1 {
+		margin-bottom: 10px;
+	}
+	.tableau2 li {
+		/*text-align: left;*/
+	}
+}
+@media(max-width:1400px){
+	body {
+		max-width: 1400px;
+		margin: 0 auto;	
+	}
+>>>>>>> 8a671b0f132350cc80015bc8db31a9ac3be543aa
 }
