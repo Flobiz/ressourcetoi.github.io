@@ -923,7 +923,6 @@ h2 {
 	margin-left: 20px;
 	margin-right: 20px;
 	background-color: white;
-	margin-top: 20px;
 }
 #texte-sophro-pro {
 	width: auto;
@@ -939,10 +938,6 @@ h2 {
 }
 #texte-sophro-pro ul {
 	font-size: 20px;
-}
-.pro-accroche {
-	margin-top: 20px;
-	color: blue;
 }
 .pro4 h3 {
 	text-align: center;
