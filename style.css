@@ -258,8 +258,12 @@ main{
 	padding-top: 40px;
 }
 .photo-Amandine-Mardin{
+	margin-top: 30px;
+	margin-bottom: 20px;
 	justify-content: center;
 	width: 100%;
+	border-radius: 10px;
+	box-shadow: 8px 8px 0px #C9C9C9;
 }
 #textes{
 	text-align: justify;
@@ -293,7 +297,27 @@ em {
 	font-size: 26px;
 	font-family: dancing script;
 }
+#temoignages h5 {
+	font-size: 22px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
 
+}
+#temoignages {
+	background-color: rgba(146, 141, 43, 0.3);
+	font-size: 18px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 0px rgba(146, 141, 43, 0.2);
+}
+#temoignages span {
+	font-style: italic;
+}
+.espace-footer {
+	background-color: white;
+	height: 1em;
+}
 
 /* mise en page du footer*/
 
@@ -329,8 +353,11 @@ footer{
 }
 .fa-facebook {
 	font-size: 25px;
-	color: black;
 	padding-left: 3px;
+	color: blue;
+}
+.fa-facebook:hover {
+	color: black;
 }
 #plan-du-site{
 	font-size: 18px;
@@ -357,9 +384,9 @@ footer{
 .logo-chambre img {
 	width: 50%;
 }
-.logo-chambre img:hover {
+/*.logo-chambre img:hover {
 	opacity: 0;
-}
+}*/
 .logo-chambre a {
 	text-decoration: none;
 }
@@ -427,6 +454,9 @@ footer{
 #titre-banniere h4 {
 	font-size: 30px;
 }/*pour page sophro qui regroupe 2 pages et donc 2 h1 sinon*/
+.titre-quisuisje {
+	display: none;
+}/*uniquement pour smartphones*/
 .container {
 	width: auto;
 	height: auto;
@@ -523,6 +553,8 @@ h2 {
 	font-size: 25px;
 	margin-top: 20px;
 	text-align: center;
+}
+.facebook i:hover {
 	color: black;
 }
 /*fin de mise en page de la page contacts*/
@@ -791,7 +823,7 @@ h2 {
 
 
 
-/*mise en page de la page sophrologie particuliers*/
+/*mise en page de la page sophrologie*/
 #page-sophrologie {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -825,7 +857,25 @@ h2 {
 	font-weight: bold;
 }
 #tableau-texte-photos img {
-	display: inline-block;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#rangee1 ul {
+	text-align: left;
+	margin-left: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
+}
+#rangee2 ul {
+	text-align: left;
+	margin-left: 130px;
+	font-size: 20px;
+	margin-top: 20px;
+	color: #45545C;
+	font-weight: normal;
 }
 .sous-titre-sophro {
 	font-size: 22px;
@@ -844,64 +894,23 @@ h2 {
 	width: 300px;
 	margin-top: 30px;
 }
-.photo-mini1 {
-	margin-left: 50px;
-}
-.photo-mini2 {
-	margin-left: 200px;
-}
-.photo-mini3 {
-	margin-left: 100px;
-}
-.texte-sophro1 ul {
-	font-size: 20px;
-	margin-top: 20px;
-	color: #45545C;
-	font-weight: normal;
-}
 .photo-sophro1 h3 {
 	text-align: center;
 	color: #928D2B;
 	font-size: 24px;
-	margin-left: 30px;
 	font-weight: bold;
-}
-.texte-sophro1 li {
-	text-align: left;
-}
-.texte-sophro2 ul {
-	font-size: 20px;
-	margin-top: 20px;
-	color: #45545C;
-	font-weight: normal;
-	margin-left: 30px;
 }
 .photo-sophro2 h3 {
 	text-align: center;
 	color: #928D2B;
 	font-size: 24px;
 	font-weight: bold;
-	margin-left: 150px;
-}
-.texte-sophro2 li {
-	text-align: left;
-}
-.texte-sophro3 ul {
-	font-size: 20px;
-	margin-top: 20px;
-	color: #45545C;
-	font-weight: normal;
-	margin-left: 110px;
 }
 .photo-sophro3 h3 {
 	text-align: center;
 	color: #928D2B;
 	font-size: 24px;
 	font-weight: bold;
-	margin-left: -70px;
-}
-.texte-sophro3 li {
-	text-align: left;
 }
 .texte-sophro-sous-photos {
 	margin-top: 2em;
@@ -915,7 +924,6 @@ h2 {
 	font-size: 18px;
 	text-align: justify;
 }
-
 /*fin de la mise en page de la page sophrologie*/
 
 /*mise en page de la page sophro entreprises*/
@@ -1023,25 +1031,39 @@ h2 {
 		font-size: 28px;
 		margin-top: -1px;
 	}
+	.titre-quisuisje {
+		display: flex;
+		margin-bottom: -40px;
+	}
+	#titre-banniere2 {
+		background-image: url(images/titre.jpg);
+		width: auto;
+		height: 40px;
+		position: relative;
+		margin-top: 20px;
+	}
+	.titre-banniere2 h4 {
+		color: white;
+		font-weight: bold;
+		position: absolute;
+		padding-top: 5px;
+		padding-left: 20px;
+	}
+	#titre-banniere2 h4 {
+		font-size: 26px;
+		margin-top: -1px;
+	}
 	h2 {
 		font-size: 22px;
 	}
 	p {
 		font-size: 16px;
 	}
-	/*main {
-		margin-left: -20px;
-		margin-right: -20px;
-	}*/
 	#footer {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
-	/*main {
-		margin-left: -5px;
-		margin-right: -5px;
-	}*/
-	#page-contact {
+		#page-contact {
 		margin-left: -0px;
 		margin-right: -0px;
 	}
@@ -1179,7 +1201,7 @@ h2 {
 	#tableau-texte-photos ul {
 		margin-left: 20px;
 	}
-/*page sophro-pro*/
+	/*page sophro-pro*/
 	#texte-sophro-pro {
 	font-size: 16px;
 	}
@@ -1226,10 +1248,36 @@ h2 {
 	}
 	#titre-banniere {
 		height: 70px;
-		margin-top: 0px;
+		margin-top: -6px;
 	}
 	#titre-banniere h1 {
 		font-size: 28px;
+		margin-top: -2px;
+	}
+	#titre-banniere h4 {
+		font-size: 28px;
+		margin-top: -2px;
+	}
+	.titre-quisuisje {
+		display: flex;
+		margin-bottom: -40px;
+	}
+	#titre-banniere2 {
+		background-image: url(images/titre.jpg);
+		width: auto;
+		height: 40px;
+		position: relative;
+		margin-top: 20px;
+	}
+	.titre-banniere2 {
+		color: white;
+		font-weight: bold;
+		position: absolute;
+		padding-top: 5px;
+		padding-left: 20px;
+	}
+	#titre-banniere2 h4 {
+		font-size: 26px;
 		margin-top: -1px;
 	}
 	h2 {
