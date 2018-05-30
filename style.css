@@ -964,6 +964,9 @@ h2 {
 	font-weight: bold;
 	text-align: center;
 }
+#contact-sophro-pro a {
+		color:  #45545C;
+}
 #contact-sophro-pro img {
 	width: 20%;
 	position: center;
@@ -1046,6 +1049,10 @@ h2 {
 	#page-sophrologie {
 		margin-left: -0px;
 		margin-right: -5px;
+	}
+	#page-sophrologie-pro {
+		margin-left: -0px;
+
 	}
 	#page-tarifs {
 		margin-left: -0px;
