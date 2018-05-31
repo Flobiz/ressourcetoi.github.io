@@ -361,7 +361,8 @@ footer{
 .fa-facebook {
 	font-size: 25px;
 	padding-left: 3px;
-	color: blue;
+	color: #365899;
+	opacity: 1;
 }
 .fa-facebook:hover {
 	color: black;
@@ -369,7 +370,8 @@ footer{
 .fa-linkedin {
 	font-size: 25px;
 	padding-left: 3px;
-	color: blue;
+	color: #006097;
+	opacity: 1;
 }
 .fa-linkedin a:hover {
 	color: black;
