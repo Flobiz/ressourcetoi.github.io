@@ -366,6 +366,14 @@ footer{
 .fa-facebook:hover {
 	color: black;
 }
+.fa-linkedin {
+	font-size: 25px;
+	padding-left: 3px;
+	color: blue;
+}
+.fa-linkedin :hover {
+	color: black;
+}
 #plan-du-site{
 	font-size: 18px;
 }
