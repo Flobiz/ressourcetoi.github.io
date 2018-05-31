@@ -371,7 +371,10 @@ footer{
 	padding-left: 3px;
 	color: blue;
 }
-.fa-linkedin :hover {
+.fa-linkedin a:hover {
+	color: black;
+}
+.fab:hover {
 	color: black;
 }
 #plan-du-site{
