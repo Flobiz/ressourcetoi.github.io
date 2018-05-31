@@ -215,16 +215,23 @@ main{
 
 
 /* bloc des 3 photos*/
-#trois-photos{
+#trois-photos {
 	display: block;
-	justify-content: space-between;
+	/*justify-content: space-between;
 	margin-left: auto;
-	margin-right: auto; 
+	margin-right: auto; */
 	padding: 0px;
 	background-color: white;
 	padding-top: 40px;
+
 }
-#trois-photos img{
+#trois-photos p {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#trois-photos img {
 	position: relative;
 	width: 100%;
 	padding-left: 30px;
