@@ -379,6 +379,11 @@ footer{
 .fab:hover {
 	color: black;
 }
+.fa-twitter-square {
+	font-size: 25px;
+	padding-left: 3px;
+	opacity: 1;
+}
 #plan-du-site{
 	font-size: 18px;
 }
@@ -577,6 +582,7 @@ h2 {
 .facebook i:hover {
 	color: black;
 }
+
 /*fin de mise en page de la page contacts*/
 
 
