@@ -103,7 +103,9 @@ main{
 .navbar-nav{
 	background-color: #e7e7e7;
 }
-
+.rdv {
+	background-color: rgba(146, 141, 43, 0.3);
+}
 /*sous-menu du menu déroulant*/
 .dropdown-menu{
 	font-size: 22px;
@@ -556,6 +558,18 @@ h2 {
 	display: flex;
 	width: auto;
 	height: auto;
+}
+.well {
+	background-color: white;
+	border: none;
+}
+.well a {
+	text-decoration: none;
+	color: #45545C;
+}
+.well span{
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 5px;
 }
 .photo-cab {
 	width: 100%;
