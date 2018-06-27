@@ -105,6 +105,9 @@ main{
 }
 .rdv {
 	background-color: rgba(146, 141, 43, 0.3);
+	padding: 5px;
+	border-radius: 5px;
+	text-decoration: none;
 }
 /*sous-menu du menu déroulant*/
 .dropdown-menu{
@@ -531,7 +534,8 @@ h2 {
 	color: #45545C;
 }
 .well a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	opacity: 0.5;
 }
 .form-group-nom  {
 	widows: 30px;
