@@ -104,10 +104,15 @@ main{
 	background-color: #e7e7e7;
 }
 .rdv {
-	background-color: rgba(146, 141, 43, 0.3);
+	background-color: #D3D3D3;
+	color: white;
 	padding: 5px;
 	border-radius: 5px;
 	text-decoration: none;
+}
+.rdv:hover {
+	background-color: #e7e7e7;
+	color: #45545C;
 }
 /*sous-menu du menu déroulant*/
 .dropdown-menu{
@@ -574,6 +579,12 @@ h2 {
 .well span{
 	background-color: rgba(146, 141, 43, 0.3);
 	padding: 5px;
+}
+.rdv2 {
+	background-color: (146, 141, 43, 0.3);
+	padding: 5px;
+	border-radius: 5px;
+	text-decoration: none;
 }
 .photo-cab {
 	width: 100%;
