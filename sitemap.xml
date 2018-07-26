@@ -30,5 +30,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
   </url>
+  <url>
+    <loc>https://www.ressourcetoi.fr</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
   ...
 </urlset>
