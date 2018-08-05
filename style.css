@@ -589,6 +589,7 @@ h2 {
 .photo-cab {
 	width: 100%;
 	margin-top: 30px;
+	padding-bottom: 30px;
 }
 .titre-cab {
 	margin-top: 10px;
@@ -727,8 +728,15 @@ h2 {
 	background-color: rgba(146, 141, 43, 0.3);
 	padding: 20px;
 }
-
-
+#photos-tarifs {
+	display: block;
+	width: 100%;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+#tarif1{
+	width: 94%;
+}
 /*fin de mise en page de la page tarifs*/
 
 
