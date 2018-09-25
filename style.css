@@ -648,11 +648,21 @@ h2 {
 	text-align: center;
 	margin-top: 20px;
 }
+.sous-titre-tarifs  {
+	font-size: 20px;
+	text-align: center;
+}
 #un-tableau {
 	margin-right: -30px;
 	margin-left: -30px;
 	margin-top: 40px;
 }
+#tableau-massage {
+	margin-right: -30px;
+	margin-left: -30px;
+	margin-top: 40px;
+}
+
 .tarifs {
 	font-size: 24px;
 	font-weight: bold;
@@ -709,6 +719,56 @@ h2 {
 	background-color: rgba(146, 141, 43, 0.3);
 	padding: 20px;
 	margin-top: -10px;
+}
+.asterix-forfait {
+	font-size: 14px;
+	margin-left: 20px;
+}
+.titre-particulier {
+	font-weight: bold;
+	font-size: 24px;
+	color: #45545C;
+	text-align: center;
+	background-color: rgba(146, 141, 43, 0.3);
+	padding: 20px;
+}
+#tableau-massage h3 {
+	font-weight: bold;
+	font-size: 24px;
+	color: #45545C;
+	text-align: center;
+	margin-top: 10px;
+}
+#tableau-massage {
+	background-color: rgba(146, 141, 43, 0.3);
+}
+#tableau-massage p {
+	padding: 20px;
+	margin-top: -10px;
+	font-size: 20px;
+}
+.asterix {
+	font-size: 14px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+	padding-left: 20px;
+}
+.massage3 p {
+	padding: 20px;
+	text-align: center;
+}
+.massage1 ul {
+	padding: 20px;
+	margin-top: -10px;
+}
+.massage2 ul {
+	padding: 20px;
+	margin-top: -10px;
+}
+.point-massage p {
+	font-size: 14px;
+	color: blue;
+	background-color: white;
 }
 .collective h3 {
 	font-size: 24px;
