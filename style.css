@@ -27,6 +27,9 @@ main{
 #page-methode-access {
 	background-color: white;
 }
+.precision {
+	font-size: 14px;
+}
 
 /* barre du haut avec coordonnées*/
 .navbar-fixed-top{
