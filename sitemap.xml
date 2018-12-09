@@ -66,5 +66,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
+  <url>
+    <loc>https://www.ressourcetoi.fr</loc>
+    <lastmod>2018-12-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
+  </url>
   ...
 </urlset>
