@@ -27,6 +27,9 @@ main{
 #page-methode-access {
 	background-color: white;
 }
+#page-mentions-legales {
+	background-color: white;
+}
 .precision {
 	font-size: 14px;
 	
@@ -449,6 +452,9 @@ footer{
 .confiance a {
 	color: white;
 }
+.mentions-legales a {
+	color: white;
+}
 .liens {
 	font-size: 18px;
 }
@@ -633,6 +639,10 @@ h2 {
 	margin-right: -45px;
 	margin-left: -45px;
 }
+.reduction-taille
+{
+	font-size: 20px;
+}
 #page-tarifs li {
 	list-style-type:none;
 	font-size: 20px;
@@ -666,7 +676,6 @@ h2 {
 	margin-left: -30px;
 	margin-top: 40px;
 }
-
 .tarifs {
 	font-size: 24px;
 	font-weight: bold;
@@ -803,6 +812,28 @@ h2 {
 }
 /*fin de mise en page de la page tarifs*/
 
+/* mise en page de la page mentions legales*/
+#page-mentions-legales {
+	margin-right: 20px;
+	margin-left: 20px;
+	width: auto;
+	font-family: forum; serif;
+	font-size: 18px;
+}
+#page-mentions-legales h5 {
+	font-size: 24px;
+	font-weight: bold; 
+}
+#page-mentions-legales h6 {
+	font-size: 20px;
+	font-weight: bold; 
+}
+.liste-mentions {
+	margin-left: -40px;
+}
+.liste-mentions li {
+	margin-left: 40px;
+}
 
 /*mise en page de la page reiki*/
 #page-reiki {
@@ -982,6 +1013,9 @@ h2 {
 }	
 .gras {
 	font-weight: bold;
+}
+.non-gras {
+	font-weight: normal;
 }
 #tableau-texte-photos img {
 	display: block;
@@ -1190,7 +1224,11 @@ h2 {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
-		#page-contact {
+	#page-contact {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-mentions-legales {
 		margin-left: -0px;
 		margin-right: -0px;
 	}
@@ -1306,6 +1344,16 @@ h2 {
 		margin-right: -20px;
 	}
 	
+/*page mentions legales*/
+	h5 {
+		font-size: 18px;
+	}
+	h6 {
+		font-size: 16px;
+	}
+	#articles-mentions  {
+		font-size: 16px;
+	}
 
 /*page sophro*/
 	.ligne-sophro p {
@@ -1440,6 +1488,10 @@ h2 {
 		margin-right: -0px;
 	}
 	#page-tarifs {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-mentions-legales {
 		margin-left: -0px;
 		margin-right: -0px;
 	}
