@@ -84,8 +84,7 @@ main{
 }
 #logo-nom p{
 	font-size: 24px;
-	padding-left: 50px;
-
+	padding-left: 0px;
 }
 #nom-logo {
 	width: auto;
