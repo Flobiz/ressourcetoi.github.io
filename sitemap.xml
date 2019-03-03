@@ -84,5 +84,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
+   <url>
+    <loc>https://www.ressourcetoi.fr</loc>
+    <lastmod>2019-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
+  </url>
   ...
 </urlset>
