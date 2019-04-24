@@ -1528,7 +1528,7 @@ h2 {
 	}
 	#logo{
 		width: 120px;
-		padding: 5px 50px 5px 5px;
+		padding: 5px 20px 5px 5px;
 	}
 	#nom-logo h1 {
 		font-size: 20px;
@@ -1537,7 +1537,7 @@ h2 {
 		padding-bottom: 5px;
 	}
 	#nom-logo h5 {
-	font-size: 18px;
+	font-size: 16px;
 	margin-top: -20px;
 	padding-left: 350px;
 	padding-bottom: 5px;
