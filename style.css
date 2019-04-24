@@ -40,7 +40,7 @@ main{
 	margin-right: 30px;
 	margin-left: 30px;
 }
-#navbar-top{
+/*#navbar-top{
 	display: flex;
 	background-color: #7B8589;
 	min-height: 30px;
@@ -57,7 +57,7 @@ main{
 }
 #navbar-coordonnees p{
 	font-weight: normal;
-}
+}*/
 
 /*barre du haut avec logo*/
 #logo-nom {
@@ -75,6 +75,7 @@ main{
 	font-size: 45px;
 	margin-top: 10px;
 	margin-bottom: -2px;
+	text-align-last: center;
 }
 /*pour les autres pages car h1 banniere*/
 #nom-logo h6 {
@@ -85,9 +86,16 @@ main{
 #logo-nom p{
 	font-size: 24px;
 	padding-left: 0px;
+	margin-top: 5px;
+	text-align: center;
 }
 #nom-logo {
 	width: auto;
+}
+#nom-logo h5 {
+	font-size: 24px;
+	padding-top: 20px;
+	padding-left: 60px;
 }
 
 /*mise en page barre totale de navigation*/
@@ -373,6 +381,9 @@ footer{
 }
 #coordonnees i {
 	padding-right: 5px;
+}
+#autres i {
+	padding-right: 2px;
 }
 .fa-facebook {
 	font-size: 25px;
@@ -1287,10 +1298,16 @@ h2 {
 		padding-left: 100px;
 		padding-bottom: 5px;
 	}
+	#nom-logo h5 {
+	font-size: 18px;
+	margin-top: -20px;
+	padding-left: 350px;
+	padding-bottom: 5px;
+}
 	#logo-nom p{
 		font-size: 16px;
 		padding-left: 120px;
-		margin-top: -10px;
+		margin-top: 3px;
 	}
 	.choix2 {
 	font-size: 22px;
@@ -1519,6 +1536,12 @@ h2 {
 		padding-left: 100px;
 		padding-bottom: 5px;
 	}
+	#nom-logo h5 {
+	font-size: 18px;
+	margin-top: -20px;
+	padding-left: 350px;
+	padding-bottom: 5px;
+	}
 	#nom-logo h6 {
 		font-size: 20px;
 		margin-top: -40px;
@@ -1528,7 +1551,8 @@ h2 {
 	#logo-nom p{
 		font-size: 16px;
 		padding-left: 120px;
-		margin-top: -10px;
+		margin-top: 2px;
+
 	}
 	.dropdown-menu{
 		font-size: 16px;
