@@ -69,13 +69,18 @@ main{
 }
 #logo{
 	width: 200px;
-	padding: 10px 50px 10px 10px;
+	padding: 30px 50px 10px 10px;
 }
 #nom-logo h1 {
 	font-size: 45px;
 	margin-top: 10px;
 	margin-bottom: -2px;
 	text-align-last: center;
+}
+#tel {
+	font-size: 12px;
+	text-align: center;
+
 }
 /*pour les autres pages car h1 banniere*/
 #nom-logo h6 {
