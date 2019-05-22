@@ -1190,6 +1190,10 @@ h2 {
 	.espace-menu{
 		margin-bottom: 5em;
 	}
+	#espace {
+	padding-top: 8.5em;
+	width: auto;
+}
 	#titre-banniere {
 		height: 70px;
 		margin-top: 0px;
