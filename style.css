@@ -89,7 +89,7 @@ main{
 	margin-bottom: -2px;
 }
 #logo-nom p{
-	font-size: 22px;
+	font-size: 24px;
 	padding-left: 0px;
 	margin-top: 5px;
 	text-align: center;
@@ -1310,8 +1310,8 @@ h2 {
 	padding-bottom: 5px;
 }
 	#logo-nom p{
-		font-size: 16px;
-		padding-left: 120px;
+		font-size: 10px;
+		padding-left: 90px;
 		margin-top: 3px;
 	}
 	.choix2 {
