@@ -27,6 +27,9 @@ main{
 #page-methode-access {
 	background-color: white;
 }
+#page-LaHoChi {
+	background-color: white;
+}
 #page-mentions-legales {
 	background-color: white;
 }
@@ -657,10 +660,15 @@ h2 {
 .reduction-taille
 {
 	font-size: 20px;
+
+}
+.reduire {
+        margin-top: -25px;
 }
 #page-tarifs li {
 	list-style-type:none;
 	font-size: 20px;
+        padding-top: -0px;
 }
 .logo-cheque-sante {
 	width: 70px;
@@ -889,6 +897,18 @@ h2 {
 }/*fin de mise en page de la page reiki*/
 
 
+/*mise en page de la page LaHoChi*/
+#page-LaHoChi {
+	font-family: forum;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+}
+
+/* voir également sophro pro car faite avec les mêmes éléments*/
+
+}/*fin de mise en page de la page LaHoChi*/
+
 
 /*mise en page de la page access*/
 #page-methode-access {
@@ -1097,7 +1117,7 @@ h2 {
 }
 /*fin de la mise en page de la page sophrologie*/
 
-/*mise en page de la page sophro entreprises*/
+/*mise en page de la page sophro entreprises....et Lahochi*/
 #page-sophrologie-pro {
 	margin-left: 20px;
 	margin-right: 20px;
