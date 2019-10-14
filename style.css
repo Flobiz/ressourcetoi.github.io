@@ -900,9 +900,12 @@ h2 {
 /*mise en page de la page LaHoChi*/
 #page-LaHoChi {
 	font-family: forum;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+#page-LaHoChi ul li{
+	font-size: 18px;
 }
 
 /* voir également sophro pro car faite avec les mêmes éléments*/
@@ -1055,7 +1058,7 @@ h2 {
 #rangee1 ul {
 	text-align: left;
 	margin-left: 20px;
-	font-size: 20px;
+	font-size: 18px;
 	margin-top: 20px;
 	color: #45545C;
 	font-weight: normal;
@@ -1063,7 +1066,7 @@ h2 {
 #rangee2 ul {
 	text-align: left;
 	margin-left: 130px;
-	font-size: 20px;
+	font-size: 18px;
 	margin-top: 20px;
 	color: #45545C;
 	font-weight: normal;
@@ -1148,10 +1151,14 @@ h2 {
 	font-weight: bold;
 }
 .pro4 ul {
-	font-size: 20px;
+	font-size: 18px;
 	margin-top: 20px;
 	color: #45545C;
 	font-weight: normal;
+}
+.reiki3 span {
+	font-weight: bold;
+	font-size: 18px;
 }
 .pro2 li {
 	margin-left: 50px;
