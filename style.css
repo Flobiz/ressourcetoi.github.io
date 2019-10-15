@@ -654,10 +654,8 @@ h2 {
 	width: 100%;
 }
 #trois-tableaux {
-	margin-right: 0px;
-	margin-left: 0px;
-	padding-right: -20px;
-	padding-left: -15px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 .reduction-taille
 {
@@ -666,8 +664,8 @@ h2 {
 }
 .reduire {
     margin-top: -25px;
-}
-#page-tarifs li {
+ }
+ #page-tarifs li {
 	list-style-type:none;
 	font-size: 20px;
     padding-top: -0px;
@@ -752,6 +750,9 @@ h2 {
 	background-color: rgba(124, 160, 0, 0.3);
 	padding: 20px;
 	margin-top: -10px;
+}
+.individuel3 ul li{
+	font-size: 17px;
 }
 .asterix-forfait {
 	font-size: 14px;
