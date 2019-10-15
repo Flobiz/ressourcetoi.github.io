@@ -652,12 +652,10 @@ h2 {
 }
 #tableau-particuliers {
 	width: 100%;
-	padding-right: -10px;
-	padding-left: -10px;
 }
 #trois-tableaux {
-	margin-right: 5px;
-	margin-left: 5px;
+	margin-right: -5px;
+	margin-left: -5px;
 }
 .reduction-taille
 {
@@ -713,6 +711,8 @@ h2 {
 .individuel3 {
 	margin-top: 10px;
 	padding-bottom: 20px;
+	padding-left: -15px;
+	padding-right: -15px;
 }
 .individuel1 h3 {
 	font-weight: bold;
