@@ -654,8 +654,8 @@ h2 {
 	width: 100%;
 }
 #trois-tableaux {
-	margin-right: 5px;
-	margin-left: 5px;
+	margin-right: 0px;
+	margin-left: 0px;
 	padding-right: -10px;
 	padding-left: -5px;
 }
@@ -665,12 +665,12 @@ h2 {
 
 }
 .reduire {
-        margin-top: -25px;
+    margin-top: -25px;
 }
 #page-tarifs li {
 	list-style-type:none;
 	font-size: 20px;
-        padding-top: -0px;
+    padding-top: -0px;
 }
 .logo-cheque-sante {
 	width: 70px;
