@@ -711,8 +711,6 @@ h2 {
 .individuel3 {
 	margin-top: 10px;
 	padding-bottom: 20px;
-	padding-left: -15px;
-	padding-right: -15px;
 }
 .individuel1 h3 {
 	font-weight: bold;
@@ -1262,6 +1260,9 @@ h2 {
 	}
 	p {
 		font-size: 16px;
+	}
+	.euros {
+		font-size: 3px;	
 	}
 	#footer {
 		margin-left: 0px;
