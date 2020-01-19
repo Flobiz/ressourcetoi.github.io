@@ -18,6 +18,9 @@ main{
 #page-sophrologie {
 	background-color: white;
 }
+#page-LBDE {
+	background-color: white;
+}
 #page-tarifs {
 	background-color: white;
 }
@@ -1012,7 +1015,94 @@ h2 {
 }
 /*fin de la mise en page de la page access*/
 
+/*mise en page de la page LBDE*/
+#page-LBDE {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+}
+.logo-lbde {
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 1em;	
+}
+.logo-lbde img {
+	width: 15%;
+}
+.superman {
+	text-align: center;
+}
+.superman img {
+	width: 25%;
+}
+.superman h2{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #E6B628;
+	text-align: center;
+}
+.photo-lbde1 {
+	height: 30em;
+	margin-right: 2px;
+	margin-left: -4px;
+	border: 1px solid black;
+}
+.photo-lbde2 {
+	height: 30em;
+	margin-right: 2px;
+	margin-left: 2px;
+	border: 1px solid black;
+}
+.photo-lbde3 {
+	height: 30em;
+	margin-left: 2px;
+	margin-right: -4px;
+	border: 1px solid black;
+}
+.photo-lbde1 p {
+margin-top: 1em;
 
+}
+.photo-lbde2 p {
+margin-top: 1em;
+}
+.photo-lbde3 p {
+margin-top: 1em;
+}
+.photo-lbde1 img {
+	width: 400px;
+}
+.photo-lbde2 img {
+	width: 400px;
+}
+.photo-lbde3 img {
+	width: 400px;
+}
+.photo-lbde1 h3 {
+	text-align: center;
+	color: #928D2B;
+	font-size: 24px;
+	font-weight: bold;
+}
+.photo-lbde2 h3 {
+	text-align: center;
+	color: #928D2B;
+	font-size: 24px;
+	font-weight: bold;
+}
+.photo-lbde3 h3 {
+	text-align: center;
+	color: #928D2B;
+	font-size: 24px;
+	font-weight: bold;
+}
+.photo-sophro3 h3 {
+	text-align: center;
+	color: #928D2B;
+	font-size: 24px;
+	font-weight: bold;
+}
 
 /*mise en page de la page sophrologie*/
 #page-sophrologie {
@@ -1551,6 +1641,11 @@ h2 {
 		margin-right: -0px;
 	}
 
+	#page-lbde{
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+
 	/*header et footer*/
 	#navbar-top {
 		font-size: 16px;
@@ -1633,7 +1728,23 @@ h2 {
 		margin-left: -20px;
 		margin-right: -20px;
 	}
-
+/*page lbde*/
+	#page-lbde img {
+		display: none;
+	}
+	.photo-lbde1 {
+	height: 12em;
+	}
+	.photo-lbde2 {
+	height: 12em;
+	}
+	.photo-lbde3 {
+	height: 15em;
+	}
+	.photo-lbde1 img {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 
 /*page sophro*/
 	.ligne-sophro p {
