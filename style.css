@@ -1733,13 +1733,16 @@ margin-top: 1em;
 		display: none;
 	}
 	.photo-lbde1 {
-	height: 12em;
+	width: auto;
+	max-height: 25em;
 	}
 	.photo-lbde2 {
-	height: 12em;
+	width: auto;
+	max-height: 25em;
 	}
 	.photo-lbde3 {
-	height: 15em;
+	width: auto;
+	max-height: 25em;
 	}
 	.photo-lbde1 img {
 		margin-left: 0px;
