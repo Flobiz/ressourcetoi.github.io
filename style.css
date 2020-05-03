@@ -1372,6 +1372,7 @@ margin-top: 1em;
 	#footer {
 		margin-left: 0px;
 		margin-right: 0px;
+		width: auto;
 	}
 	#page-contact {
 		margin-left: -0px;
@@ -1479,10 +1480,17 @@ margin-top: 1em;
 	#plan-du-site{
 		font-size: 16px;
 		margin-top: -40px;
+		margin-bottom: 50px;
+		line-height: 1.5em;
 	}
 	#autres{
 		font-size: 16px;
+
 	}
+	.logo-chambre {
+	margin-top: -70px;
+	}
+
 	.logo-chambre a:hover span {
 		font-size: 12px;
 	}
