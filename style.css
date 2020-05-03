@@ -446,6 +446,9 @@ footer{
 #plan-du-site a {
 	color: white;
 }
+#plan-du-site1 a {
+	color: white;
+}
 #plan-du-site li {
 	list-style-type:none;
 	padding-left: 0px;
@@ -1479,16 +1482,23 @@ margin-top: 1em;
 	}
 	#plan-du-site{
 		font-size: 16px;
-		margin-top: -40px;
-		margin-bottom: 50px;
-		line-height: 1.5em;
+		margin-top: 50px;
+		/*margin-bottom: 60px;
+		line-height: 1.5em;*/
+		height: auto;
 	}
 	#autres{
 		font-size: 16px;
+		height: auto;
+		/*line-height: 200%;*/
+	}
+	#plan-du-site1 {
+		padding-bottom: 1px;
 
 	}
 	.logo-chambre {
-	margin-top: -70px;
+	margin-top: -50px;
+
 	}
 
 	.logo-chambre a:hover span {
