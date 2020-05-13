@@ -18,6 +18,9 @@ main{
 #page-sophrologie {
 	background-color: white;
 }
+#page-sophro-tele {
+	background-color: white;
+}
 #page-LBDE {
 	background-color: white;
 }
@@ -265,10 +268,14 @@ main{
 /* mise en page des 3 photos*/
 .container-fluid {
 	display: flex;
+	background-color: red;
 }
 
 
+
+
 /* bloc des 3 photos*/
+
 #trois-photos {
 	display: block;
 	/*justify-content: space-between;
@@ -290,9 +297,45 @@ main{
 	padding-left: 30px;
 	padding-right: 30px;
 }
+
+
+
+
+
+
+
+
+
+/*#trois-photos.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px;
+	background-color: blue;
+	/*margin-left: 50px;
+	margin-right: 50px; 
+	padding: 5px;
+	width: auto;
+}
+.trois-photos 
+#trois-photos img {
+	align-content: center;
+	padding: 5px;
+	background-color: green;
+}
+#trois-photos p {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}*/
 #trois-photos img:hover{
 	opacity: 0.3;
 }
+
+
 #trois-photos img:hover::after{
 	content: url('images/logo-survol1.png');
 	position: absolute;
@@ -301,10 +344,11 @@ main{
 	font-color: #424242;
 	font-size: 20px;
 	background-color: white;
-	display: block;
-	margin-left: 50px;
-	margin-right: 50px;
+	/*display: block;*/
+	margin-left: 10px;
+	margin-right: 10px;
 	border: none; 
+	position: center;
 }
 .btn:hover{
 	color:#D6D6D6FF;
@@ -426,6 +470,7 @@ footer{
 .fa-linkedin {
 	font-size: 25px;
 	padding-left: 3px;
+
 	color: #006097;
 	opacity: 1;
 }
@@ -1130,6 +1175,10 @@ margin-top: 1em;
 	margin-left: 20px;
 	margin-right: 20px;
 }
+#page-sophro-tele {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 #texte-sophro-total {
 	width: auto;
 }
@@ -1233,6 +1282,11 @@ margin-top: 1em;
 
 /*mise en page de la page sophro entreprises....et Lahochi*/
 #page-sophrologie-pro {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: white;
+}
+#page-sophro-tele {
 	margin-left: 20px;
 	margin-right: 20px;
 	background-color: white;
@@ -1386,6 +1440,10 @@ margin-top: 1em;
 		margin-right: -0px;
 	}
 	#page-sophrologie {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-sophro-tele {
 		margin-left: -0px;
 		margin-right: -0px;
 	}
@@ -1661,6 +1719,10 @@ margin-top: 1em;
 		margin-right: -0px;
 	}
 	#page-sophrologie {
+		margin-left: -0px;
+		margin-right: -0px;
+	}
+	#page-sophro-tele {
 		margin-left: -0px;
 		margin-right: -0px;
 	}
