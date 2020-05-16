@@ -144,6 +144,15 @@ main{
 	background-color: #e7e7e7;
 	color: #45545C;
 }
+.rdv3 {
+	 color: #45545C;
+	 border-style: none;
+	 font-weight: none;
+}
+.rdv3 a: hover  {
+	text-decoration: none;
+	opacity: 0.5;
+}
 .paiement {
 	background-color: #D3D3D3;
 	color: white;
@@ -1179,6 +1188,16 @@ margin-top: 1em;
 	margin-left: 20px;
 	margin-right: 20px;
 }
+.pro1 li{
+	list-style-type:none;
+	font-size: 18px;
+}
+.point li{
+	list-style-type:disc;
+}
+.size{
+	font-size: 18px;
+}
 #texte-sophro-total {
 	width: auto;
 }
@@ -1290,6 +1309,20 @@ margin-top: 1em;
 	margin-left: 20px;
 	margin-right: 20px;
 	background-color: white;
+
+}
+.size-point img a: hover {
+	opacity: 0.5px;
+}
+.pro1 ul{
+		font-size: 18px;
+}
+.size-point a {
+	text-decoration: none;
+	color: #45545C;
+}
+.size-point li a:hover {
+	opacity: 0.5;
 }
 #texte-sophro-pro {
 	width: auto;
@@ -1298,16 +1331,16 @@ margin-top: 1em;
 	font-size: 18px;
 }
 #texte-sophro-pro li {
-	font-size: 20px;
+	font-size: 18px;
 }
 #texte-sophro-pro span {
 	font-weight: bold;
 }
 #texte-sophro-pro li {
-	font-size: 20px;
+	font-size: 18px;
 }
 .accroche-pro {
-	margin-top: 20px;
+	margin-top: 18px;
 }
 .pro4 h3 {
 	text-align: center;
@@ -1602,7 +1635,7 @@ margin-top: 1em;
 	}
 	#tableau-texte-photos li {
 		margin-left: -50px;
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#tableau-texte-photos h3 {
 		font-size: 22px;
@@ -1616,7 +1649,7 @@ margin-top: 1em;
 	font-size: 16px;
 	}
 	#texte-sophro-pro li {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.pro4 ul {
 		font-size: 16px;
